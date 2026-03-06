@@ -1,0 +1,30 @@
+\documentclass[12pt,paper=6in:9in,pagesize=pdftex,oneside,openany]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,english]{babel}
+\usepackage{titlesec}
+\usepackage{geometry}
+\geometry{
+    paperwidth=6in,
+    paperheight=9in,
+    margin=0.75in,
+    bindingoffset=0.25in
+}
+\usepackage{ebgaramond}
+\usepackage{graphicx}
+\usepackage{microtype} % Better justification for Kindle
+
+\title{El Libro del Karma}
+\author{FJ Banezares}
+\date{2026}
+
+\begin{document}
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+\chapter{El Esfuerzo Desinteresado}
+\input{capitulo_1_es_en.tex}
+
+\end{document}

@@ -1,0 +1,10 @@
+# Capítulo 3: La Siembra Silenciosa de la Prosperidad y el Amor
+
+## La Semilla del Pasado: El Granero de Elena
+En una época de grandes hambrunas y miedos, donde la mayoría cerraba sus puertas con doble cerrojo, vivía Elena. Su granero era pequeño, pero su corazón era inmenso. Elena entendía que el grano no tenía valor si no alimentaba una vida. Cada día, de forma silenciosa y sin buscar el reconocimiento de los poderosos, Elena repartía raciones entre los ancianos sin hijos y los niños huérfanos de su comarca. Actuaba movida por una compasión pura, esa que no espera ni un "gracias" para sentirse plena. En una vida anterior, fue una mujer que dio lo poco que tenía, sembrando en su rastro espiritual una **Causa** de abundancia y conexión profunda con el corazón humano.
+
+## El Fruto del Presente: El Jardín de la Abundancia
+Esa semilla de desprendimiento ha florecido de forma espectacular en su vida actual. Elena no solo goza de una prosperidad económica que parece fluir hacia ella casi sin esfuerzo, sino que posee el mayor de los tesoros: está rodeada de una red de amigos leales y una familia que la adora. Lo vemos en la imagen de la derecha: ella está radiante en un jardín lleno de vida, donde los árboles dan frutos y la gente a su alrededor celebra su presencia. La riqueza del Karma no se cuenta solo en oro, sino en la alegría de vivir rodeado de almas que vibran en tu misma frecuencia de amor.
+
+## Interpretación de la Imagen del Templo
+La tercera fila del mural es un canto a la generosidad. A la izquierda, la **Causa**: personas realizando actos de caridad, dando de comer y ayudando a los necesitados ("Nhân: Bố thí giúp người"). A la derecha, el **Efecto**: una vida llena de amor, respeto y prosperidad material ("Quả: Sung túc mọi người yêu thương"). La imagen nos enseña que el universo es un espejo: cuando vacías tus manos para aliviar el dolor de otros, la vida las llena con una gracia que trasciende la simple acumulación de riquezas. La verdadera abundancia es la cosecha de lo que hemos dado.

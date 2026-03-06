@@ -1,0 +1,105 @@
+\documentclass[12pt,paper=6in:9in,pagesize=pdftex,oneside,openany]{book}
+
+% --- Paquetes de Idioma y Codificación ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+
+% --- Tipografía Premium ---
+\usepackage{ebgaramond}
+\usepackage[tracking=true]{microtype}
+\usepackage{lettrine} % Para letras capitulares (drop caps)
+
+% --- Diseño de Página (6x9 pulgadas) ---
+\usepackage{geometry}
+\geometry{
+    paperwidth=6in,
+    paperheight=9in,
+    top=0.8in,
+    bottom=1in,
+    inner=0.85in, % Margen para el lomo
+    outer=0.65in,
+    footskip=0.5in
+}
+
+% --- Estilo de Títulos (Discreto y Elegante) ---
+\usepackage{titlesec}
+\usepackage{xcolor}
+\definecolor{gold}{HTML}{C5A059}
+
+% Estilo de Capítulo
+\titleformat{\chapter}[display]
+  {\centering\normalfont\color{gold}}
+  {\Large\MakeUppercase{\chaptertitlename} \thechapter}
+  {10pt}
+  {\Huge\scshape\lsstyle} % Mayúsculas pequeñas y algo de espaciado entre letras
+\titlespacing*{\chapter}{0pt}{-20pt}{40pt}
+
+% Estilo de Secciones (Interpretación del Templo)
+\titleformat{\section}
+  {\normalfont\Large\scshape\color{gold}}
+  {\thesection}
+  {1em}
+  {}
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+% --- Encabezados y Pies de Página ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage} % Número de página centrado abajo
+
+% --- Otros Ajustes ---
+\usepackage{graphicx}
+\usepackage{caption}
+\captionsetup{font=it, labelformat=empty} % Capturas en cursiva y sin "Figura X"
+\usepackage{setspace}
+\setstretch{1.15} % Espaciado ligeramente mayor para legibilidad premium
+
+% Evitar viudas y huérfanas
+\widowpenalty10000
+\clubpenalty10000
+
+% --- Datos del Libro ---
+\title{\Huge\scshape El Libro del Karma}
+\author{\Large FJ Banezares}
+\date{2026}
+
+\begin{document}
+
+\frontmatter
+% Portadilla Personalizada
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\Huge\scshape\color{gold} El Libro del Karma \par}
+    \vspace{1cm}
+    {\Large\itshape De la Causa a la Consecuencia \par}
+    \vspace{4cm}
+    {\Large FJ Banezares \par}
+    \vfill
+    {\small Impreso en 2026 \par}
+\end{titlepage}
+
+\clearpage
+\tableofcontents
+
+\mainmatter
+
+% --- Inclusión de Capítulos ---
+\input{00_introduccion/latex/capitulo_00.tex}
+\input{01_esfuerzo_desinteresado/latex/capitulo_01.tex}
+\input{02_fidelidad_y_familia/latex/capitulo_02.tex}
+\input{03_generosidad_y_prosperidad/latex/capitulo_03.tex}
+\input{04_respeto_por_la_vida/latex/capitulo_04.tex}
+\input{05_pureza_mental/latex/capitulo_05.tex}
+\input{06_sobriedad_y_claridad/latex/capitulo_06.tex}
+\input{07_manos_del_mal/latex/capitulo_07.tex}
+\input{08_pedestal_soberbia/latex/capitulo_08.tex}
+\input{09_frio_egoismo/latex/capitulo_09.tex}
+\input{10_infierno_sombras/latex/capitulo_10.tex}
+\input{11_mirada_desprecio/latex/capitulo_11.tex}
+\input{12_peso_injusticia/latex/capitulo_12.tex}
+
+\end{document}

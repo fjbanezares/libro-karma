@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Chapter Selection Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "primary-dark": "#0e45b8",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                        "glass": "rgba(255, 255, 255, 0.05)",
+                        "glass-border": "rgba(255, 255, 255, 0.1)",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "sans": ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar for webkit */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #101622;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #282e39;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3a4252;
+        }
+        
+        .glass-panel {
+            background: rgba(16, 22, 34, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .glass-card-overlay {
+            background: linear-gradient(to top, rgba(16, 22, 34, 0.95) 0%, rgba(16, 22, 34, 0.6) 60%, rgba(16, 22, 34, 0) 100%);
+        }
+
+        .hover-zoom-img {
+            transition: transform 0.5s ease;
+        }
+        .group:hover .hover-zoom-img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display min-h-screen flex flex-col overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-50 w-full glass-panel border-b-0">
+<div class="px-4 sm:px-6 lg:px-8 max-w-[1440px] mx-auto h-16 flex items-center justify-between gap-4">
+<!-- Logo Section -->
+<div class="flex items-center gap-2 text-primary dark:text-white shrink-0">
+<div class="size-8 rounded-lg bg-primary flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[20px]">auto_stories</span>
+</div>
+<h2 class="text-slate-900 dark:text-white text-lg font-bold tracking-tight hidden sm:block">LuminaBooks</h2>
+</div>
+<!-- Navigation Links (Desktop) -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">Library</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">Bookmarks</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">Community</a>
+</nav>
+<!-- Right Actions -->
+<div class="flex flex-1 justify-end items-center gap-4">
+<!-- Search Bar -->
+<div class="hidden sm:flex max-w-md w-full relative group">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400 group-focus-within:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+<input class="block w-full pl-10 pr-3 py-2 border border-slate-200 dark:border-slate-700 rounded-lg leading-5 bg-slate-50 dark:bg-[#1a202c] text-slate-900 dark:text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary sm:text-sm transition-all" placeholder="Search chapters, authors..." type="text"/>
+</div>
+<!-- Language Selector -->
+<div class="flex items-center bg-slate-100 dark:bg-[#1a202c] rounded-lg p-1 border border-slate-200 dark:border-slate-700">
+<button class="px-2 py-1 text-xs font-bold text-white bg-primary rounded shadow-sm">EN</button>
+<button class="px-2 py-1 text-xs font-medium text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors">ES</button>
+<button class="px-2 py-1 text-xs font-medium text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors">FR</button>
+</div>
+<!-- Profile -->
+<button class="flex items-center justify-center size-9 rounded-full bg-slate-200 dark:bg-[#282e39] text-slate-600 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors">
+<span class="material-symbols-outlined text-[20px]">account_circle</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+<!-- Hero Section -->
+<section class="relative w-full rounded-2xl overflow-hidden aspect-[16/9] md:aspect-[21/9] lg:aspect-[24/9] group shadow-2xl ring-1 ring-white/10">
+<!-- Background Image -->
+<div class="absolute inset-0 w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Mysterious dark city street with glowing blue neon lights and fog" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCl3RIrnsN6EjZMT8KvIocrATm26jgg-SOx-Ii3GTli4zDEISeJEgVpAkdGxQocOxkHuc56KvXljTrY92burpfPAlKr2QiVeJKJ-svxO4fcF0X1xtbeHa6JhHztzG4FKUrFbuGVgZ7RDa3X7C9sK5-KIh5eue11GiNro-sn44MASWH4eakqwzIwmdOmXDowPPGRX2yMSmK6wNGR8EUHmpSyk3PKImup4pMJy56Aygcynfatan_Zvqc7GABUqYSvYuyh3v-w-6harRE');">
+</div>
+<!-- Gradient Overlay -->
+<div class="absolute inset-0 bg-gradient-to-r from-background-dark/95 via-background-dark/60 to-transparent"></div>
+<!-- Content -->
+<div class="absolute inset-0 flex flex-col justify-center items-start p-8 md:p-12 lg:p-16 max-w-3xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 text-primary-200 border border-primary/30 backdrop-blur-md mb-4">
+<span class="material-symbols-outlined text-[16px] text-primary">auto_stories</span>
+<span class="text-xs font-bold uppercase tracking-wider text-primary">Current Read</span>
+</div>
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-4 drop-shadow-lg tracking-tight">
+                    Chapter 4: <br class="hidden md:block"/>The Silent City
+                </h1>
+<p class="text-slate-300 text-lg md:text-xl font-light mb-8 max-w-xl leading-relaxed">
+                    The journey into the unknown depths begins now. Shadows whisper secrets of the past as you navigate the ruins.
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="flex items-center gap-2 px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg font-bold text-base transition-all transform hover:scale-105 shadow-lg shadow-primary/25">
+<span class="material-symbols-outlined">play_arrow</span>
+                        Resume Reading
+                    </button>
+<button class="flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-lg font-medium text-base backdrop-blur-md transition-all">
+<span class="material-symbols-outlined">info</span>
+                        Chapter Details
+                    </button>
+</div>
+</div>
+</section>
+<!-- Library Grid Section -->
+<section class="space-y-6">
+<!-- Filters & Sort -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<h2 class="text-2xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">library_books</span>
+                    Your Library
+                </h2>
+<div class="flex overflow-x-auto pb-2 md:pb-0 gap-2 scrollbar-hide">
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-primary text-white text-sm font-medium shadow-md shadow-primary/20">All Chapters</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-white dark:bg-[#1a202c] border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-[#282e39] text-sm font-medium transition-colors">Unread</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-white dark:bg-[#1a202c] border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-[#282e39] text-sm font-medium transition-colors">Favorites</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-white dark:bg-[#1a202c] border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-[#282e39] text-sm font-medium transition-colors">Downloaded</button>
+</div>
+</div>
+<!-- Grid Layout -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<article class="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer shadow-lg ring-1 ring-slate-200 dark:ring-slate-700/50 hover:ring-primary transition-all duration-300">
+<div class="absolute inset-0 bg-cover bg-center hover-zoom-img" data-alt="Dark forest with sunlight piercing through trees representing awakening" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB5puOcUJIPyH0n3pYT1o2RUZZfuqdcbXeq6S7YiH2l-kdn9zQnN6BD2FV2M8YWM8dBey-dmAGqQmcj0LG3NSXwUddMFNFxJx8GCAYVmsmtSr3yJy1tInIS0ENFqin1pzOdZmrJbAScHQwHL1PBSDVNpdBuIS_IuiSUtQ0LQ1uY1vBuewcQN2yJOjf60awgFdqhOOyihwnG47LmV7BFuYuWC_ft19WjtLCHmFLNy5dkdXVgZnHjFctXpPgdLdrIOP4wH1fYh48LqJk');">
+</div>
+<!-- Status Badge -->
+<div class="absolute top-3 right-3 z-10">
+<span class="inline-flex items-center justify-center size-8 rounded-full bg-green-500/20 backdrop-blur-md border border-green-500/40 text-green-400">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</span>
+</div>
+<!-- Content Overlay -->
+<div class="absolute bottom-0 inset-x-0 p-4 glass-card-overlay flex flex-col justify-end h-2/3">
+<span class="text-xs font-bold text-slate-300 uppercase tracking-widest mb-1">Chapter 1</span>
+<h3 class="text-xl font-bold text-white leading-tight mb-2 group-hover:text-primary transition-colors">The Awakening</h3>
+<p class="text-slate-400 text-sm line-clamp-2 mb-3">The first realization that the world had changed forever.</p>
+<!-- Progress Bar -->
+<div class="w-full bg-slate-700/50 rounded-full h-1 mb-1">
+<div class="bg-green-500 h-1 rounded-full w-full"></div>
+</div>
+<span class="text-xs text-slate-400 font-medium text-right w-full block">Completed</span>
+</div>
+</article>
+<!-- Card 2 -->
+<article class="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer shadow-lg ring-1 ring-slate-200 dark:ring-slate-700/50 hover:ring-primary transition-all duration-300">
+<div class="absolute inset-0 bg-cover bg-center hover-zoom-img" data-alt="A lone figure walking through a misty futuristic portal" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAyOvFDW-vSJUUlG7UFgkB90k-ELMOVb9srwd5dDPhh9xU3UXUeH2Pzy_qfMKs1QpHHsNZJSmSIEl27xFu5TfpmaWk5cnAVp931dD1lsnh1Qovub5lGWz2g8ZPxlzbWxTcqJ2GGZDmHCznFpIPdgLd0-aCVT8qkWOww3V8jbfvGIP51kP84v-NvlJXd-TgiKuciaM4oMpuVZNIa0GjRxW-9Yku6LZyQtMAAUrUrLJSJR-wBvJ3XlnApqURCTYPl4JVW4k5dhA4Fh74');">
+</div>
+<!-- Status Badge -->
+<div class="absolute top-3 right-3 z-10">
+<span class="inline-flex items-center justify-center size-8 rounded-full bg-green-500/20 backdrop-blur-md border border-green-500/40 text-green-400">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</span>
+</div>
+<div class="absolute bottom-0 inset-x-0 p-4 glass-card-overlay flex flex-col justify-end h-2/3">
+<span class="text-xs font-bold text-slate-300 uppercase tracking-widest mb-1">Chapter 2</span>
+<h3 class="text-xl font-bold text-white leading-tight mb-2 group-hover:text-primary transition-colors">Crossing Threshold</h3>
+<p class="text-slate-400 text-sm line-clamp-2 mb-3">Leaving the safety of the bunker behind for the first time.</p>
+<div class="w-full bg-slate-700/50 rounded-full h-1 mb-1">
+<div class="bg-green-500 h-1 rounded-full w-full"></div>
+</div>
+<span class="text-xs text-slate-400 font-medium text-right w-full block">Completed</span>
+</div>
+</article>
+<!-- Card 3 -->
+<article class="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer shadow-lg ring-1 ring-slate-200 dark:ring-slate-700/50 hover:ring-primary transition-all duration-300">
+<div class="absolute inset-0 bg-cover bg-center hover-zoom-img" data-alt="Close up of an old book with magical glowing text" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD1n7hRLeZX2xogzt0Y8HrfXEEmhXCST_ln0NlMCbKhTcEZVVGHOJfwRmM0mzYNsGhYlATu9KyMKXvxu-kdKMGiYAC3XSU1I1TDzyP_UocfyKd-IXtBeEes3EW3qUpCo4nRgLzd86NxA7ANk8OiLXYEhOpwr644mf7R8k3_5g3vQRN0eUqHH5PfXyToeUGx9usHKmt5njD_e0kpwRzVChat0FTiC-lyl568LozqXTycY6o39xkoeModzdhVcL3d9kc1tutekOsGm7k');">
+</div>
+<!-- Status Badge -->
+<div class="absolute top-3 right-3 z-10">
+<span class="inline-flex items-center justify-center size-8 rounded-full bg-primary/20 backdrop-blur-md border border-primary/40 text-primary">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</span>
+</div>
+<div class="absolute bottom-0 inset-x-0 p-4 glass-card-overlay flex flex-col justify-end h-2/3">
+<span class="text-xs font-bold text-slate-300 uppercase tracking-widest mb-1">Chapter 3</span>
+<h3 class="text-xl font-bold text-white leading-tight mb-2 group-hover:text-primary transition-colors">The Guide</h3>
+<p class="text-slate-400 text-sm line-clamp-2 mb-3">A mysterious stranger offers help, but at what cost?</p>
+<div class="w-full bg-slate-700/50 rounded-full h-1 mb-1">
+<div class="bg-primary h-1 rounded-full w-[85%]"></div>
+</div>
+<span class="text-xs text-primary font-bold text-right w-full block">85% Read</span>
+</div>
+</article>
+<!-- Card 4 (Active/Upcoming) -->
+<article class="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer ring-2 ring-primary shadow-[0_0_20px_rgba(19,91,236,0.3)] hover:shadow-[0_0_30px_rgba(19,91,236,0.5)] transition-all duration-300">
+<div class="absolute inset-0 bg-cover bg-center hover-zoom-img" data-alt="Aerial view of a dark moody city with skyscrapers at night" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDJd0OR11tHvX4iLWg7u3wcYgqFyzk142_dKFsw514xhzq9WA3mZ-jFgdWAwILem6W-qaj8IlfgTV4oCoF9zZPaoRJe86MZdIXVY9Tn1TR0f0aEdWgRYOvLtjqu9Xni1O2gSXoXpo1Un54YJwe452WBnFiqYpwKeWbGOYyQrABuol-j3jGl_vxKj_d7wug5wTQ6WhEzxA23AMMkalrZVgsAMoTckWbmwDSWPSQYV4lb8GzFoiZTPtub82sciJRFzEDb2IUUdO7tUxo');">
+</div>
+<!-- Play Overlay on Hover -->
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+<div class="size-14 rounded-full bg-primary text-white flex items-center justify-center shadow-lg transform scale-90 group-hover:scale-100 transition-transform">
+<span class="material-symbols-outlined text-[32px]">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-0 inset-x-0 p-4 glass-card-overlay flex flex-col justify-end h-2/3 z-10">
+<span class="text-xs font-bold text-primary uppercase tracking-widest mb-1">Current Chapter</span>
+<h3 class="text-xl font-bold text-white leading-tight mb-2">The Silent City</h3>
+<p class="text-slate-300 text-sm line-clamp-2 mb-3">Navigating the ruins of the metropolis in absolute silence.</p>
+<div class="w-full bg-slate-700/50 rounded-full h-1 mb-1">
+<div class="bg-primary h-1 rounded-full w-[15%]"></div>
+</div>
+<span class="text-xs text-primary font-bold text-right w-full block">15% Read</span>
+</div>
+</article>
+<!-- Card 5 (Locked) -->
+<article class="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-not-allowed grayscale-[50%] opacity-80 hover:opacity-100 transition-all duration-300">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Abstract neon geometric shapes glowing in the dark" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCWdbdH7lOhMN6ZQWo5g5bu_1M2HpcfJ1g3XRXB1Vh2Xvk3d-7oeE3dP2hGRtUU-FUJ1T2_mbMbY8DIjoIME-XZohIm706ZGqD4uCtHmms1cgOw7UTdwT_3pNBgVAcUqZX_UDHyC4ghf1qU2AbUg2K7HBnfF7zgDgTd4G3c3kl1fsEC11w_XwA-Xmxp9AGxDo8NVhi_YMJQH7GUX_oEC1w8qAIPlbY-TRz8WEngv-kPZf2_8YmzvGC4Ib7jyHA79JbWZGFuWRqiBXI');">
+</div>
+<!-- Lock Badge -->
+<div class="absolute inset-0 bg-background-dark/60 flex flex-col items-center justify-center gap-2 backdrop-blur-[2px]">
+<span class="material-symbols-outlined text-[40px] text-slate-400">lock</span>
+<span class="text-sm font-medium text-slate-300 uppercase tracking-widest">Locked</span>
+</div>
+<div class="absolute bottom-0 inset-x-0 p-4 glass-card-overlay flex flex-col justify-end h-1/2">
+<span class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Chapter 5</span>
+<h3 class="text-xl font-bold text-slate-300 leading-tight mb-2">Neon Dreams</h3>
+<p class="text-slate-500 text-sm line-clamp-2">Complete previous chapters to unlock this story.</p>
+</div>
+</article>
+<!-- Card 6 (Locked) -->
+<article class="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-not-allowed grayscale-[50%] opacity-80 hover:opacity-100 transition-all duration-300">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Abstract fluid liquid oil painting with blue and orange colors" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBCSjCXDTmLEKRFL7Fublve92aVWoCPtAkU3xvmy3CLUOgK6jwuHq9fRI428axSZyeBUDJ5YqMYBtfrhqAEtIpPl665fk4Z_U9_Vww9bCCUwFl2XdPIjMS5msTEo6DpgnYoA6CpO7-zkliWUGeTN9edjZ2Zn6iyDyCCZQiHNEMRhx1mzoNqaxhEBZ3q8tHCbGNZgA3yyou-XzJWJ4cCz8Wonkm8Vms5g8nWqfIN1-5JdlgrDf5X5FtSxujAftqg_dec_x-oRPLtyK8');">
+</div>
+<!-- Lock Badge -->
+<div class="absolute inset-0 bg-background-dark/60 flex flex-col items-center justify-center gap-2 backdrop-blur-[2px]">
+<span class="material-symbols-outlined text-[40px] text-slate-400">lock</span>
+<span class="text-sm font-medium text-slate-300 uppercase tracking-widest">Locked</span>
+</div>
+<div class="absolute bottom-0 inset-x-0 p-4 glass-card-overlay flex flex-col justify-end h-1/2">
+<span class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Chapter 6</span>
+<h3 class="text-xl font-bold text-slate-300 leading-tight mb-2">The Revelation</h3>
+<p class="text-slate-500 text-sm line-clamp-2">The final piece of the puzzle awaits.</p>
+</div>
+</article>
+</div>
+</section>
+<!-- Quick Resume Floating Action (Visible on Scroll - Simulated here as static for design) -->
+<div class="fixed bottom-6 right-6 z-40 hidden md:block">
+<button class="flex items-center gap-3 bg-primary hover:bg-primary-dark text-white pl-4 pr-6 py-3 rounded-full shadow-2xl shadow-primary/40 transition-all transform hover:-translate-y-1">
+<span class="material-symbols-outlined text-[24px]">headphones</span>
+<div class="flex flex-col items-start">
+<span class="text-xs font-medium opacity-80 uppercase tracking-wide">Audiobook</span>
+<span class="text-sm font-bold">Listen to Ch. 4</span>
+</div>
+</button>
+</div>
+</main>
+<!-- Simple Footer -->
+<footer class="w-full py-8 mt-12 border-t border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark">
+<div class="max-w-[1440px] mx-auto px-4 text-center">
+<p class="text-slate-500 dark:text-slate-400 text-sm">© 2023 LuminaBooks. All rights reserved.</p>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,10 @@
+# Capítulo 5: Las Sombras de la Mente y la Pureza del Pensamiento
+
+## La Semilla del Pasado: El Mercader de Ilusiones
+En una época donde la imprenta empezaba a despertar, un hombre llamado Tuan descubrió que podía enriquecerse apelando a los instintos más bajos del ser humano. Se dedicó a producir y distribuir literatura y grabados que distorsionaban la belleza del cuerpo humano, convirtiéndolo en un objeto de degradación y consumo lascivo. Tuan pensaba que solo estaba vendiendo "entretenimiento", pero en realidad estaba inyectando un veneno de insatisfacción y distorsión en la mente colectiva de su época. Al vender "películas" (en su formato antiguo de teatro de sombras o grabados) de carácter degradante, grabó en su rastro espiritual una **Causa** de desequilibrio mental.
+
+## El Fruto del Presente: El Laberinto de la Locura
+Siglos después, ese mismo espíritu habita en un hombre que parece tenerlo todo bajo control, pero que es perseguido por fantasmas invisibles. Lo vemos en la imagen de la derecha: un hombre sentado en el suelo, con la cabeza entre las manos, rodeado de un aura de caos. La distorsión mental que "vendió" en el pasado se ha convertido en su propia realidad interior. Su mente, antes capaz de claridad, es ahora un laberinto de miedos, alucinaciones y una profunda miseria emocional. Su familia se fragmenta no por la falta de amor, sino por la imposibilidad de convivir con la oscuridad que brota de su mente distorsionada.
+
+## Interpretación de la Imagen del Templo
+Si miramos la quinta fila del mural del templo, la lección es directa. A la izquierda, la **Causa**: un hombre filmando o produciendo material pornográfico y libros degradantes ("Thưởng làm phim viết sách đồi trụy"). A la derecha, el **Efecto**: locura, dolor profundo y una familia destrozada ("Quả: Điên loạn, khổ đau, gia đình đổ vỡ"). La imagen nos advierte que lo que proyectamos hacia afuera como "información" o "arte" tiene un impacto de retorno en nuestra propia estructura cerebral y emocional. La pureza de lo que consumimos y producimos determina la claridad de nuestra paz mental futura.
