@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca: El Libro del Karma</title>
+    <link rel="stylesheet" href="shared/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="lang-es">
+    <div class="sidebar-overlay"></div>
+
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <a href="index.html" class="logo-link">
+                <div class="sidebar-logo">KARMA</div>
+            </a>
+            <button class="toggle-btn">☰</button>
+        </div>
+        <nav class="sidebar-nav">
+            <div class="nav-item">
+                <a href="index.html" class="nav-link active">
+                    <i>☰</i><span class="es">Biblioteca</span><span class="en">Library</span>
+                </a>
+            </div>
+            <div class="nav-item"><a href="00_introduccion/web/index.html" class="nav-link"><i>0</i><span class="es">El
+                        Despertar</span><span class="en">The Awakening</span></a></div>
+            <div class="nav-item"><a href="01_esfuerzo_desinteresado/web/index.html" class="nav-link"><i>1</i><span
+                        class="es">Fuerza Física</span><span class="en">Physical Strength</span></a></div>
+            <div class="nav-item"><a href="02_fidelidad_y_familia/web/index.html" class="nav-link"><i>2</i><span
+                        class="es">Espejos Rotos</span><span class="en">Broken Mirrors</span></a></div>
+            <div class="nav-item"><a href="03_generosidad_y_prosperidad/web/index.html" class="nav-link"><i>3</i><span
+                        class="es">Siembra Silenciosa</span><span class="en">Silent Sowing</span></a></div>
+            <div class="nav-item"><a href="04_respeto_por_la_vida/web/index.html" class="nav-link"><i>4</i><span
+                        class="es">Hilo de la Vida</span><span class="en">Thread of Life</span></a></div>
+            <div class="nav-item"><a href="05_pureza_mental/web/index.html" class="nav-link"><i>5</i><span
+                        class="es">Sombras Mentales</span><span class="en">Mental Shadows</span></a></div>
+            <div class="nav-item"><a href="06_sobriedad_y_claridad/web/index.html" class="nav-link"><i>6</i><span
+                        class="es">Veneno Dulce</span><span class="en">Sweet Poison</span></a></div>
+            <div class="nav-item"><a href="07_manos_del_mal/web/index.html" class="nav-link"><i>7</i><span
+                        class="es">Manos del Mal</span><span class="en">Hands of Evil</span></a></div>
+            <div class="nav-item"><a href="08_pedestal_soberbia/web/index.html" class="nav-link"><i>8</i><span
+                        class="es">Soberbia</span><span class="en">Pride</span></a></div>
+            <div class="nav-item"><a href="09_frio_egoismo/web/index.html" class="nav-link"><i>9</i><span
+                        class="es">Egoísmo</span><span class="en">Greed</span></a></div>
+            <div class="nav-item"><a href="10_infierno_sombras/web/index.html" class="nav-link"><i>10</i><span
+                        class="es">Infierno</span><span class="en">Hell</span></a></div>
+            <div class="nav-item"><a href="11_mirada_desprecio/web/index.html" class="nav-link"><i>11</i><span
+                        class="es">Desprecio</span><span class="en">Contempt</span></a></div>
+            <div class="nav-item"><a href="12_peso_injusticia/web/index.html" class="nav-link"><i>12</i><span
+                        class="es">Injusticia</span><span class="en">Injustice</span></a></div>
+        </nav>
+        <div class="sidebar-footer">© Karma 2026</div>
+    </aside>
+
+    <main class="main-content">
+        <div class="top-header-controls">
+            <a href="linktree.html" target="_self" class="linktree-link" title="Links">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M13.511 5.833l3.964-4.504 1.551 1.341-3.327 3.737h3.301v2h-9v-2h3.334l-3.327-3.737 1.551-1.341 3.953 4.504zM9 10.333h6v10h3v2h-12v-2h3v-10z" />
+                </svg>
+            </a>
+            <div class="lang-selector-elegant">
+                <button class="lang-current-trigger">
+                    <span class="flag">🇪🇸</span> <span class="es">Castellano</span> <span class="en">English</span>
+                </button>
+                <div class="lang-dropdown-menu">
+                    <div class="lang-opt" data-lang="es" onclick="setLanguage('es')">
+                        <span class="flag">🇪🇸</span> Castellano
+                    </div>
+                    <div class="lang-opt" data-lang="en" onclick="setLanguage('en')">
+                        <span class="flag">🇬🇧</span> English
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="library-container">
+            <h1 class="library-title">
+                <span class="es">Librería del Karma</span>
+                <span class="en">The Karma Library</span>
+            </h1>
+
+            <div class="library-grid">
+                <!-- Capítulo 0 -->
+                <a href="00_introduccion/web/index.html" class="chapter-card">
+                    <img src="00_introduccion/web/assets/intro.png" alt="Capítulo 0">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO 0</span><span class="en">CHAPTER
+                                0</span></span>
+                        <h2 class="card-title"><span class="es">El Despertar de la Ley</span><span class="en">The
+                                Awakening of Law</span></h2>
+                        <p class="card-desc">
+                            <span class="es">Una introducción a la ley de causa y efecto.</span>
+                            <span class="en">An introduction to the law of cause and effect.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 1 -->
+                <a href="01_esfuerzo_desinteresado/web/index.html" class="chapter-card">
+                    <img src="01_esfuerzo_desinteresado/web/assets/juxtaposition.png" alt="Capítulo 1">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO I</span><span class="en">CHAPTER
+                                I</span></span>
+                        <h2 class="card-title"><span class="es">Fuerza Física</span><span class="en">Physical
+                                Strength</span></h2>
+                        <p class="card-desc">
+                            <span class="es">El esfuerzo desinteresado y el vigor del alma.</span>
+                            <span class="en">Selfless effort and the soul's vigor.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 2 -->
+                <a href="02_fidelidad_y_familia/web/index.html" class="chapter-card">
+                    <img src="02_fidelidad_y_familia/web/assets/juxtaposition.png" alt="Capítulo 2">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO II</span><span class="en">CHAPTER
+                                II</span></span>
+                        <h2 class="card-title"><span class="es">Espejos Rotos</span><span class="en">Broken
+                                Mirrors</span></h2>
+                        <p class="card-desc">
+                            <span class="es">La fragmentación del alma y la familia.</span>
+                            <span class="en">Fragmentation of the heart and family.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 3 -->
+                <a href="03_generosidad_y_prosperidad/web/index.html" class="chapter-card">
+                    <img src="03_generosidad_y_prosperidad/web/assets/juxtaposition.png" alt="Capítulo 3">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO III</span><span class="en">CHAPTER
+                                III</span></span>
+                        <h2 class="card-title"><span class="es">Siembra Silenciosa</span><span class="en">Silent
+                                Sowing</span></h2>
+                        <p class="card-desc">
+                            <span class="es">La generosidad y el fruto de la abundancia.</span>
+                            <span class="en">Generosity and the fruit of abundance.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 4 -->
+                <a href="04_respeto_por_la_vida/web/index.html" class="chapter-card">
+                    <img src="04_respeto_por_la_vida/web/assets/juxtaposition.png" alt="Capítulo 4">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO IV</span><span class="en">CHAPTER
+                                IV</span></span>
+                        <h2 class="card-title"><span class="es">Hilo de la Vida</span><span class="en">Thread of
+                                Life</span></h2>
+                        <p class="card-desc">
+                            <span class="es">El respeto sagrado por cada latido divino.</span>
+                            <span class="en">Sacred respect for every divine heartbeat.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 5 -->
+                <a href="05_pureza_mental/web/index.html" class="chapter-card">
+                    <img src="05_pureza_mental/web/assets/juxtaposition.png" alt="Capítulo 5">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO V</span><span class="en">CHAPTER
+                                V</span></span>
+                        <h2 class="card-title"><span class="es">Sombras Mentales</span><span class="en">Mental
+                                Shadows</span></h2>
+                        <p class="card-desc">
+                            <span class="es">La distorsión de la belleza y la locura.</span>
+                            <span class="en">Distortion of beauty and madness.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 6 -->
+                <a href="06_sobriedad_y_claridad/web/index.html" class="chapter-card">
+                    <img src="06_sobriedad_y_claridad/web/assets/juxtaposition.png" alt="Capítulo 6">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO VI</span><span class="en">CHAPTER
+                                VI</span></span>
+                        <h2 class="card-title"><span class="es">Veneno Dulce</span><span class="en">Sweet Poison</span>
+                        </h2>
+                        <p class="card-desc">
+                            <span class="es">La inducción al vicio y la pérdida de lucidez.</span>
+                            <span class="en">Inducing vice and the loss of lucidity.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 7 -->
+                <a href="07_manos_del_mal/web/index.html" class="chapter-card">
+                    <img src="07_manos_del_mal/web/assets/hero.png" alt="Capítulo 7">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO VII</span><span class="en">CHAPTER
+                                VII</span></span>
+                        <h2 class="card-title"><span class="es">Manos del Mal</span><span class="en">Hands of
+                                Evil</span></h2>
+                        <p class="card-desc">
+                            <span class="es">La violencia despoja al alma de su forma.</span>
+                            <span class="en">Violence strips the soul of its form.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 8 -->
+                <a href="08_pedestal_soberbia/web/index.html" class="chapter-card">
+                    <img src="08_pedestal_soberbia/web/assets/hero.png" alt="Capítulo 8">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO VIII</span><span class="en">CHAPTER
+                                VIII</span></span>
+                        <h2 class="card-title"><span class="es">Soberbia</span><span class="en">Pride</span></h2>
+                        <p class="card-desc">
+                            <span class="es">La venda dorada de la superioridad.</span>
+                            <span class="en">The golden blindfold of superiority.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 9 -->
+                <a href="09_frio_egoismo/web/index.html" class="chapter-card">
+                    <img src="09_frio_egoismo/web/assets/hero.png" alt="Capítulo 9">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO IX</span><span class="en">CHAPTER
+                                IX</span></span>
+                        <h2 class="card-title"><span class="es">Egoísmo</span><span class="en">Greed</span></h2>
+                        <p class="card-desc">
+                            <span class="es">La soledad de un corazón que no da.</span>
+                            <span class="en">The loneliness of a heart that does not give.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 10 -->
+                <a href="10_infierno_sombras/web/index.html" class="chapter-card">
+                    <img src="10_infierno_sombras/web/assets/hero.png" alt="Capítulo 10">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO X</span><span class="en">CHAPTER
+                                X</span></span>
+                        <h2 class="card-title"><span class="es">Infierno</span><span class="en">Hell</span></h2>
+                        <p class="card-desc">
+                            <span class="es">El fuego eterno de la culpa.</span>
+                            <span class="en">The eternal fire of guilt.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 11 -->
+                <a href="11_mirada_desprecio/web/index.html" class="chapter-card">
+                    <img src="11_mirada_desprecio/web/assets/hero.png" alt="Capítulo 11">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO XI</span><span class="en">CHAPTER
+                                XI</span></span>
+                        <h2 class="card-title"><span class="es">Desprecio</span><span class="en">Contempt</span></h2>
+                        <p class="card-desc">
+                            <span class="es">La enfermedad como eco de la soberbia.</span>
+                            <span class="en">Illness as an echo of pride.</span>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Capítulo 12 -->
+                <a href="12_peso_injusticia/web/index.html" class="chapter-card">
+                    <img src="12_peso_injusticia/web/assets/hero.png" alt="Capítulo 12">
+                    <div class="card-content">
+                        <span class="card-num"><span class="es">CAPÍTULO XII</span><span class="en">CHAPTER
+                                XII</span></span>
+                        <h2 class="card-title"><span class="es">Injusticia</span><span class="en">Injustice</span></h2>
+                        <p class="card-desc">
+                            <span class="es">El poder malgastado y la ruina material.</span>
+                            <span class="en">Wasteful power and material ruin.</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script src="shared/script.js"></script>
+</body>
+
+</html>
