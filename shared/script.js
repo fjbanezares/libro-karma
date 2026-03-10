@@ -124,9 +124,9 @@ function setLanguage(lang) {
             const url = new URL(href, window.location.href);
             url.searchParams.set('lang', lang);
 
-            // Instead of replacing the whole href with an absolute path, we just update the search
+            // Use setAttribute to keep relative paths intact
             const base = href.split('?')[0];
-            link.href = base + url.search;
+            link.setAttribute('href', base + url.search);
         } catch (e) { }
     });
 }
