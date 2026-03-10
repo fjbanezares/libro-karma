@@ -209,48 +209,45 @@ body.sidebar-collapsed .nav-link i {
     white-space: nowrap;
 }
 
-/* Top-Right Controls Overlay */
+/* Top-Right Controls Overlay (Glassmorphism + Golden Aura) */
 .top-header-controls {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 25px;
+    right: 25px;
     display: flex;
     align-items: center;
     gap: 12px;
-    z-index: 4000;
-}
-
-.top-header-controls>* {
-    pointer-events: auto;
-    /* Buttons are clickable */
+    z-index: 5000;
+    /* Highest priority */
 }
 
 .library-quick-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
     padding: 0 18px;
     height: 38px;
     border-radius: 40px;
-    background: transparent;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    background: transparent !important;
     border: 1px solid rgba(197, 160, 89, 0.4);
     color: #fff;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    box-shadow: 0 0 15px rgba(197, 160, 89, 0.1);
+    box-shadow: 0 0 15px rgba(197, 160, 89, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .library-quick-link:hover {
-    background: rgba(197, 160, 89, 0.1);
-    box-shadow: 0 0 20px rgba(197, 160, 89, 0.3);
     border-color: var(--accent-color);
+    box-shadow: 0 0 25px rgba(197, 160, 89, 0.5);
+    background: rgba(197, 160, 89, 0.05) !important;
+    transform: translateY(-1px);
 }
 
 .library-quick-link::before {
@@ -264,75 +261,51 @@ body.sidebar-collapsed .nav-link i {
 
 .lang-selector-elegant .lang-current-trigger {
     height: 38px;
-    background: transparent;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    background: transparent !important;
     border: 1px solid rgba(197, 160, 89, 0.4);
     border-radius: 40px;
     color: #fff;
     padding: 0 15px;
     font-size: 0.75rem;
+    font-weight: 700;
     letter-spacing: 1px;
     display: flex;
     align-items: center;
     gap: 8px;
-    box-shadow: 0 0 15px rgba(197, 160, 89, 0.1);
+    box-shadow: 0 0 15px rgba(197, 160, 89, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.4s ease;
 }
 
 .lang-selector-elegant .lang-current-trigger:hover {
-    background: rgba(197, 160, 89, 0.1);
-    box-shadow: 0 0 20px rgba(197, 160, 89, 0.3);
+    border-color: var(--accent-color);
+    box-shadow: 0 0 25px rgba(197, 160, 89, 0.5);
+    background: rgba(197, 160, 89, 0.05) !important;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .top-header-controls {
+        top: 15px;
+        right: 15px;
+        gap: 8px;
+    }
 }
 
 @media (max-width: 600px) {
     .library-quick-link::after {
         content: 'BIBLIO';
     }
-
-    .top-header-controls {
-        top: 10px;
-        right: 10px;
-    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     .library-quick-link::after {
         display: none;
     }
-}
-
-.library-quick-link:hover {
-    background: var(--accent-color);
-    color: #000;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(197, 160, 89, 0.4);
-}
-
-.library-quick-link::before {
-    content: '📚';
-    font-size: 1.1rem;
-}
-
-.library-quick-link::after {
-    content: 'BIBLIOTECA';
-}
-
-@media (max-width: 600px) {
-    .library-quick-link::after {
-        content: 'BIBLIO';
-    }
-
-    .top-header-controls {
-        top: 10px;
-        right: 10px;
-        padding: 5px 10px;
-        gap: 8px;
-    }
 
     .library-quick-link {
-        padding: 0 12px;
-        height: 34px;
-        font-size: 0.7rem;
+        padding: 0 10px;
     }
 }
 
