@@ -405,6 +405,19 @@ body.sidebar-collapsed .main-content {
     body.sidebar-open .sidebar-overlay {
         display: block;
     }
+
+    /* Mobile Text Alignment */
+    .story-block,
+    .connection-info,
+    .moralina-text,
+    .story-block p {
+        text-align: left !important;
+    }
+
+    .story-block p:first-of-type::first-letter {
+        font-size: 3.5rem;
+        /* Slightly smaller dropcap for mobile */
+    }
 }
 
 /* Hero Section Refinement */

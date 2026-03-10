@@ -58,34 +58,25 @@ function initLayout() {
 function updateActiveNavLink() {
     const currentPath = window.location.pathname;
     const navLinks = document.querySelectorAll('.nav-link');
-    let activeFound = null;
 
     navLinks.forEach(link => {
         link.classList.remove('active');
         const linkHref = link.getAttribute('href');
         if (!linkHref) return;
 
-        // Try to match the chapter folder (e.g. "05_pureza_mental") from the URL
-        const isChapter = currentPath.match(/\/\d{2}_[^/]+/);
-        if (isChapter) {
-            if (linkHref.includes(isChapter[0].substring(1))) {
-                link.classList.add('active');
-                activeFound = link;
-            }
-        } else {
-            // Probably at root or index html (Library)
-            if (linkHref === "index.html" || linkHref === "../index.html") {
-                link.classList.add('active');
-                activeFound = link;
-            }
+        // Simplify: if the link is in the current path, it's active
+        // Get the folder name from the link (e.g. "09_frio_egoismo")
+        const linkParts = linkHref.split('/');
+        const folder = linkParts.find(p => p.match(/^\d{2}_/));
+
+        if (folder && currentPath.includes(folder)) {
+            link.classList.add('active');
+        } else if ((linkHref.includes('index.html') || linkHref === '/') &&
+            (currentPath.endsWith('/') || currentPath.endsWith('index.html')) &&
+            !currentPath.includes('_')) {
+            link.classList.add('active');
         }
     });
-
-    if (activeFound) {
-        setTimeout(() => {
-            activeFound.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, 100);
-    }
 }
 
 function initLanguage() {
@@ -127,9 +118,15 @@ function setLanguage(lang) {
     const links = document.querySelectorAll('.nav-link, .logo-link, .chapter-card');
     links.forEach(link => {
         try {
-            const url = new URL(link.href, window.location.origin);
+            const href = link.getAttribute('href');
+            if (!href || href.startsWith('#') || href.startsWith('mailto:')) return;
+
+            const url = new URL(href, window.location.href);
             url.searchParams.set('lang', lang);
-            link.href = url.pathname + url.search;
+
+            // Instead of replacing the whole href with an absolute path, we just update the search
+            const base = href.split('?')[0];
+            link.href = base + url.search;
         } catch (e) { }
     });
 }
