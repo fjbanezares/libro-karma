@@ -208,6 +208,32 @@ body.sidebar-collapsed .nav-link i {
     white-space: nowrap;
 }
 
+.sidebar-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.library-quick-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid rgba(197, 160, 89, 0.3);
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+    background: rgba(197, 160, 89, 0.05);
+    font-size: 1.1rem;
+}
+
+.library-quick-link:hover {
+    background: var(--accent-color);
+    color: #000;
+    box-shadow: 0 0 15px rgba(197, 160, 89, 0.4);
+}
+
 /* Elegant Top-Right Controls (Lang + Linktree) */
 .top-header-controls {
     position: fixed;

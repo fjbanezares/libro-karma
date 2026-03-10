@@ -38,11 +38,13 @@ function initLayout() {
         });
     }
 
-    // Close on document click
+    // Close language menu on document click
     document.addEventListener('click', () => {
         if (langMenu) langMenu.classList.remove('show');
-        if (window.innerWidth <= 1024) body.classList.remove('sidebar-open');
     });
+
+    // Sidebar Close logic: ONLY via overlay or toggle button in mobile
+    // (Removed the global document listener that closed sidebar-open on any click)
 
     // Sidebar overlay click
     if (overlay) {
