@@ -58,28 +58,34 @@ function initLayout() {
 function updateActiveNavLink() {
     const currentPath = window.location.pathname;
     const navLinks = document.querySelectorAll('.nav-link');
+    let activeFound = null;
+
     navLinks.forEach(link => {
+        link.classList.remove('active');
         const linkHref = link.getAttribute('href');
-        if (currentPath.includes('biblioteca') && linkHref.includes('biblioteca')) {
-            link.classList.add('active');
-        } else if (currentPath.includes('00_introduccion') && linkHref.includes('00_introduccion')) {
-            link.classList.add('active');
-        } else if (currentPath.includes('01_esfuerzo_desinteresado') && linkHref.includes('01_esfuerzo_desinteresado')) {
-            link.classList.add('active');
-        } else if (currentPath.includes('02_fidelidad_y_familia') && linkHref.includes('02_fidelidad_y_familia')) {
-            link.classList.add('active');
-        } else if (currentPath.includes('03_generosidad_y_prosperidad') && linkHref.includes('03_generosidad_y_prosperidad')) {
-            link.classList.add('active');
-        } else if (currentPath.includes('04_respeto_por_la_vida') && linkHref.includes('04_respeto_por_la_vida')) {
-            link.classList.add('active');
-        } else if (currentPath.includes('05_pureza_mental') && linkHref.includes('05_pureza_mental')) {
-            link.classList.add('active');
-        } else if (currentPath.includes('06_sobriedad_y_claridad') && linkHref.includes('06_sobriedad_y_claridad')) {
-            link.classList.add('active');
+        if (!linkHref) return;
+
+        // Try to match the chapter folder (e.g. "05_pureza_mental") from the URL
+        const isChapter = currentPath.match(/\/\d{2}_[^/]+/);
+        if (isChapter) {
+            if (linkHref.includes(isChapter[0].substring(1))) {
+                link.classList.add('active');
+                activeFound = link;
+            }
         } else {
-            link.classList.remove('active');
+            // Probably at root or index html (Library)
+            if (linkHref === "index.html" || linkHref === "../index.html") {
+                link.classList.add('active');
+                activeFound = link;
+            }
         }
     });
+
+    if (activeFound) {
+        setTimeout(() => {
+            activeFound.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 100);
+    }
 }
 
 function initLanguage() {
@@ -89,13 +95,21 @@ function initLanguage() {
 }
 
 function setLanguage(lang) {
-    document.body.className = document.body.className.replace(/lang-(es|en)/, '') + ` lang-${lang}`;
+    document.body.className = document.body.className.replace(/lang-(es|en|it|zh|ar|ru|de|fr|ja|pt)/g, '') + ` lang-${lang}`;
     localStorage.setItem('karmaLang', lang);
 
     // Update UI Indicators
     const langInfo = {
         'es': { flag: '🇪🇸', label: 'Castellano' },
-        'en': { flag: '🇬🇧', label: 'English' }
+        'en': { flag: '🇬🇧', label: 'English' },
+        'it': { flag: '🇮🇹', label: 'Italiano' },
+        'zh': { flag: '🇨🇳', label: '中文' },
+        'ar': { flag: '🇦🇪', label: 'العربية' },
+        'ru': { flag: '🇷🇺', label: 'Русский' },
+        'de': { flag: '🇩🇪', label: 'Deutsch' },
+        'fr': { flag: '🇫🇷', label: 'Français' },
+        'ja': { flag: '🇯🇵', label: '日本語' },
+        'pt': { flag: '🇵🇹', label: 'Português' }
     };
 
     const currentTrigger = document.querySelector('.lang-current-trigger');
