@@ -74,11 +74,12 @@ body.lang-ar {
     width: var(--sidebar-width);
     background: #0f0f0f;
     border-right: 1px solid rgba(255, 255, 255, 0.05);
-    z-index: 1000;
+    z-index: 3000;
     transition: var(--transition);
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    pointer-events: auto !important;
 }
 
 body.sidebar-collapsed .sidebar {
@@ -198,7 +199,7 @@ body.sidebar-collapsed .nav-link i {
     border-left: 3px solid var(--accent-color);
 }
 
-/* Sidebar Footer (Optional/Secondary) */
+/* Sidebar Footer */
 .sidebar-footer {
     padding: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.03);
@@ -208,43 +209,84 @@ body.sidebar-collapsed .nav-link i {
     white-space: nowrap;
 }
 
-.sidebar-link {
-    text-decoration: none;
-    color: inherit;
+/* Top-Right Controls Overlay */
+.top-header-controls {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 6px 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 4000;
+    background: rgba(11, 11, 11, 0.6);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 50px;
+    border: 1px solid rgba(197, 160, 89, 0.4);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease;
 }
 
 .library-quick-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: 1px solid rgba(197, 160, 89, 0.3);
-    color: var(--accent-color);
+    gap: 10px;
+    padding: 0 20px;
+    height: 42px;
+    border-radius: 25px;
+    border: 1px solid rgba(197, 160, 89, 0.5);
+    color: #fff;
     text-decoration: none;
-    transition: 0.3s;
-    background: rgba(197, 160, 89, 0.05);
-    font-size: 1.1rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background: rgba(197, 160, 89, 0.25);
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .library-quick-link:hover {
     background: var(--accent-color);
     color: #000;
-    box-shadow: 0 0 15px rgba(197, 160, 89, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(197, 160, 89, 0.4);
 }
 
-/* Elegant Top-Right Controls (Lang + Linktree) */
-.top-header-controls {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: var(--header-height);
-    padding: 0 30px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    z-index: 900;
+.library-quick-link::before {
+    content: '📚';
+    font-size: 1.1rem;
+}
+
+.library-quick-link::after {
+    content: 'BIBLIOTECA';
+}
+
+@media (max-width: 600px) {
+    .library-quick-link::after {
+        content: 'BIBLIO';
+    }
+
+    .top-header-controls {
+        top: 10px;
+        right: 10px;
+        padding: 5px 10px;
+        gap: 8px;
+    }
+
+    .library-quick-link {
+        padding: 0 12px;
+        height: 34px;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .library-quick-link::after {
+        display: none;
+    }
 }
 
 .linktree-link {
