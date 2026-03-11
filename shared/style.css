@@ -653,22 +653,24 @@ body.sidebar-collapsed .main-content {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 30px 25px 25px; /* More padding for better breathing room */
-    background: linear-gradient(to top, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0.8) 40%, transparent 100%);
+    padding: 35px 20px 25px; /* Cover a bit more space vertically */
+    background: linear-gradient(to top, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0.85) 45%, transparent 100%);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center; /* Center horizontally */
+    text-align: center;
 }
 
 .card-num {
     font-family: var(--font-serif);
-    font-size: 0.75rem;
+    font-size: 0.9rem; /* Larger chapter number */
     color: var(--accent-color);
     letter-spacing: 3px; /* Wider tracking */
     margin-bottom: 8px;
     display: block;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 .card-title {
@@ -680,6 +682,7 @@ body.sidebar-collapsed .main-content {
     letter-spacing: 1.5px;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
     line-height: 1.2;
+    width: 100%; /* Occupy full width */
 }
 
 /* Hero Section Refinement */
