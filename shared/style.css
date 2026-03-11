@@ -57,7 +57,8 @@ body:not(.lang-ru) .ru,
 body:not(.lang-de) .de,
 body:not(.lang-fr) .fr,
 body:not(.lang-ja) .ja,
-body:not(.lang-pt) .pt {
+body:not(.lang-pt) .pt,
+body:not(.lang-vi) .vi {
     display: none !important;
 }
 

@@ -88,7 +88,7 @@ function initLanguage() {
 }
 
 function setLanguage(lang) {
-    document.body.className = document.body.className.replace(/lang-(es|en|it|zh|ar|ru|de|fr|ja|pt)/g, '') + ` lang-${lang}`;
+    document.body.className = document.body.className.replace(/lang-(es|en|it|zh|ar|ru|de|fr|ja|pt|vi)/g, '') + ` lang-${lang}`;
     localStorage.setItem('karmaLang', lang);
 
     // Update UI Indicators
@@ -102,7 +102,8 @@ function setLanguage(lang) {
         'de': { flag: '🇩🇪', label: 'Deutsch' },
         'fr': { flag: '🇫🇷', label: 'Français' },
         'ja': { flag: '🇯🇵', label: '日本語' },
-        'pt': { flag: '🇵🇹', label: 'Português' }
+        'pt': { flag: '🇵🇹', label: 'Português' },
+        'vi': { flag: '🇻🇳', label: 'Tiếng Việt' }
     };
 
     const currentTrigger = document.querySelector('.lang-current-trigger');
