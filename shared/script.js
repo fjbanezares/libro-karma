@@ -117,6 +117,16 @@ function setLanguage(lang) {
         opt.classList.toggle('active', bl === lang);
     });
 
+    // Update dynamic dropcaps for all languages
+    document.querySelectorAll('.active-dropcap').forEach(el => el.classList.remove('active-dropcap'));
+    document.querySelectorAll('.story-block').forEach(block => {
+        // Find the first paragraph matching the current language in this block
+        const firstPara = block.querySelector(`p.${lang}`);
+        if (firstPara) {
+            firstPara.classList.add('active-dropcap');
+        }
+    });
+
     // Persist language on all navigation links
     const links = document.querySelectorAll('.nav-link, .logo-link, .chapter-card');
     links.forEach(link => {

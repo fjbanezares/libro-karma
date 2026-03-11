@@ -741,7 +741,8 @@ body.sidebar-collapsed .main-content {
 }
 
 /* Drop Cap (for premium feel) */
-.story-block p:first-of-type::first-letter {
+.story-block p:first-of-type::first-letter,
+.story-block p.active-dropcap::first-letter {
     float: left;
     font-family: var(--font-serif);
     font-size: 5rem;
