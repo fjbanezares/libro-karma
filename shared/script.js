@@ -87,6 +87,10 @@ const KARMA_CHAPTERS = [
       es:'La Senda Destruida', en:'The Destroyed Path', it:'Il Sentiero Distrutto', zh:'被毁的道路',
       ar:'الطريق المدمر', ru:'Разрушенный путь', de:'Der Zerstörte Pfad', fr:'Le Sentier Détruit',
       ja:'破壊された道', pt:'A Senda Destruída', vi:'Con Đường Bị Phá Hủy' },
+    { icon: '20', folder: '20_construccion_puentes',
+      es:'El Puente de la Prosperidad', en:'The Bridge of Prosperity', it:'Il Ponte della Prosperità', zh:'繁荣之桥',
+      ar:'جسر الازدهار', ru:'Мост процветания', de:'Die Brücke des Wohlstands', fr:'Le Pont de la Prospérité',
+      ja:'繁栄の橋', pt:'A Ponte da Prosperidade', vi:'Cây Cầu Thịnh Vượng' },
 ];
 
 const LANGS = ['es','en','it','zh','ar','ru','de','fr','ja','pt','vi'];
