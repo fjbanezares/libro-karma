@@ -91,6 +91,14 @@ const KARMA_CHAPTERS = [
       es:'El Puente de la Prosperidad', en:'The Bridge of Prosperity', it:'Il Ponte della Prosperità', zh:'繁荣之桥',
       ar:'جسر الازدهار', ru:'Мост процветания', de:'Die Brücke des Wohlstands', fr:'Le Pont de la Prospérité',
       ja:'繁栄の橋', pt:'A Ponte da Prosperidade', vi:'Cây Cầu Thịnh Vượng' },
+    { icon: '21', folder: '21_exhibicion_cuerpo',
+      es:'El Fuego del Exhibicionismo', en:'The Fire of Exhibitionism', it:'Il Fuoco dell\'Esibizionismo', zh:'裸露之火',
+      ar:'نار الاستعراض', ru:'Огонь эксгибиционизма', de:'Das Feuer des Exhibitionismus', fr:'Le Feu de l\'Exhibitionnisme',
+      ja:'露出の炎', pt:'O Fogo do Exibicionismo', vi:'Ngọn Lửa Phô Bày' },
+    { icon: '22', folder: '22_pesca_excesiva',
+      es:'La Red Vacía', en:'The Empty Net', it:'La Rete Vuota', zh:'空网',
+      ar:'الشبكة الفارغة', ru:'Пустая сеть', de:'Das Leere Netz', fr:'Le Filet Vide',
+      ja:'空の網', pt:'A Rede Vazia', vi:'Lưới Trống' },
 ];
 
 const LANGS = ['es','en','it','zh','ar','ru','de','fr','ja','pt','vi'];
