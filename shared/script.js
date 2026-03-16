@@ -99,6 +99,14 @@ const KARMA_CHAPTERS = [
       es:'La Red Vacía', en:'The Empty Net', it:'La Rete Vuota', zh:'空网',
       ar:'الشبكة الفارغة', ru:'Пустая сеть', de:'Das Leere Netz', fr:'Le Filet Vide',
       ja:'空の網', pt:'A Rede Vazia', vi:'Lưới Trống' },
+    { icon: '23', folder: '23_adiccion_juego',
+      es:'Los Dados del Vacío', en:'The Dice of the Void', it:'I dadi del vuoto', zh:'虚空之骰',
+      ar:'نرد الفراغ', ru:'Кости пустоты', de:'Die Würfel der Leere', fr:'Les Dés du Vide',
+      ja:'虚無のサイコロ', pt:'Os Dados do Vazio', vi:'Xúc Xắc Hư Không' },
+    { icon: '24', folder: '24_derroche_sin_caridad',
+      es:'La Riqueza de Humo', en:'The Smoke Wealth', it:'La ricchezza di fumo', zh:'烟雾之财',
+      ar:'ثروة الدخان', ru:'Дымное богатство', de:'Der Rauchreichtum', fr:'La Richesse de Fumée',
+      ja:'煙の富', pt:'A Riqueza de Fumaça', vi:'Sự Giàu Có Khói Bụi' },
 ];
 
 const LANGS = ['es','en','it','zh','ar','ru','de','fr','ja','pt','vi'];
