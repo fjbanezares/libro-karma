@@ -107,6 +107,14 @@ const KARMA_CHAPTERS = [
       es:'La Riqueza de Humo', en:'The Smoke Wealth', it:'La ricchezza di fumo', zh:'烟雾之财',
       ar:'ثروة الدخان', ru:'Дымное богатство', de:'Der Rauchreichtum', fr:'La Richesse de Fumée',
       ja:'煙の富', pt:'A Riqueza de Fumaça', vi:'Sự Giàu Có Khói Bụi' },
+    { icon: '25', folder: '25_firmeza_justicia',
+      es:'Firmeza ante el Mal', en:'Firmness against Evil', it:'Fermezza contro il Male', zh:'对恶的坚定',
+      ar:'الحزم في مواجهة الشر', ru:'Твёрдость перед злом', de:'Standhaftigkeit gegen das Böse', fr:'La fermeté face au mal',
+      ja:'悪に対する毅然とした態度', pt:'Firmeza contra o Mal', vi:'Sự cứng rắn trước cái ác' },
+    { icon: '26', folder: '26_responsabilidad_nacional',
+      es:'Bien Nacional', en:'National Good', it:'Bene Nazionale', zh:'国家利益',
+      ar:'الخير الوطني', ru:'Национальное благо', de:'Nationales Wohl', fr:'Bien National',
+      ja:'国家の利益', pt:'Bem Nacional', vi:'Lợi ích quốc gia' },
 ];
 
 const LANGS = ['es','en','it','zh','ar','ru','de','fr','ja','pt','vi'];
