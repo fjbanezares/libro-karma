@@ -135,6 +135,14 @@ const KARMA_CHAPTERS = [
       es:'Veneno del Consentimiento', en:'Poison of Indulgence', it:'Veleno del Consenso', zh:'放纵的毒药',
       ar:'سم التدليل', ru:'Яд изнеженности', de:'Gift der Überindulgenz', fr:'Poison de l\'Indulgence',
       ja:'甘やかしの毒', pt:'Veneno do Consentimento', vi:'Độc tố nuông chiều' },
+    { icon: '32', folder: '32_apoyo_educacion',
+      es:'Cimentar la Sabiduría', en:'Foundation of Wisdom', it:'Fondamenta della Sapienza', zh:'智慧的基石',
+      ar:'تأسيس الحكمة', ru:'Фундамент мудрости', de:'Fundament der Weisheit', fr:'Fondation de la sagesse',
+      ja:'知恵の基盤', pt:'Cimentar a Sabedoria', vi:'Gieo mầm trí tuệ' },
+    { icon: '33', folder: '33_proteccion_hogar',
+      es:'Santidad del Refugio', en:'Sanctity of Refuge', it:'Santità del Rifugio', zh:'避难所的神圣',
+      ar:'قدسية المأوى', ru:'Святость крова', de:'Heiligkeit der Zuflucht', fr:'Sainteté du refuge',
+      ja:'避難所の神聖さ', pt:'Santidade do Refúgio', vi:'Tôn trọng mái ấm' },
 ];
 
 const LANGS = ['es','en','it','zh','ar','ru','de','fr','ja','pt','vi'];
