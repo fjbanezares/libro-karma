@@ -143,6 +143,22 @@ const KARMA_CHAPTERS = [
       es:'Santidad del Refugio', en:'Sanctity of Refuge', it:'Santità del Rifugio', zh:'避难所的神圣',
       ar:'قدسية المأوى', ru:'Святость крова', de:'Heiligkeit der Zuflucht', fr:'Sainteté du refuge',
       ja:'避難所の神聖さ', pt:'Santidade do Refúgio', vi:'Tôn trọng mái ấm' },
+    { icon: '34', folder: '34_iluminacion_publica',
+      es:'La Luz que Guía a Otros', en:'The Light that Guides Others', it:'La Luce che Guida gli Altri', zh:'引导他人的光',
+      ar:'النور الذي يهدي الآخرين', ru:'Свет, направляющий других', de:'Das Licht, das andere führt', fr:'La lumière qui guide les autres',
+      ja:'他者を導く光', pt:'A Luz que Guia os Outros', vi:'Ánh sáng khai tâm' },
+    { icon: '35', folder: '35_ayuda_victimas_desastres',
+      es:'El Refugio de la Compasión', en:'The Shelter of Compassion', it:'Il Rifugio della Compassione', zh:'慈悲的庇护所',
+      ar:'ملاذ الرحمة', ru:'Приют сострадания', de:'Die Zuflucht des Mitgefühls', fr:'Le refuge de la compassion',
+      ja:'慈悲の避難所', pt:'O Refúgio da Compaixão', vi:'Nơi trú ẩn từ bi' },
+    { icon: '36', folder: '36_ganancias_ilicitas',
+      es:'Fruto Amargo', en:'Bitter Fruit', it:'Frutto Amaro', zh:'贪婪苦果',
+      ar:'ثمار الطمع', ru:'Горький плод', de:'Bittere Frucht', fr:'Fruit Amer',
+      ja:'貪欲の果実', pt:'Fruto Amargo', vi:'Quả đắng tham lam' },
+    { icon: '37', folder: '37_vida_larga_vitalidad',
+      es:'Aliento de Vida', en:'Breath of Life', it:'Respiro di Vita', zh:'生命气息',
+      ar:'نفس الحياة', ru:'Дыхание жизни', de:'Atem des Lebens', fr:'Souffle de Vie',
+      ja:'命の息吹', pt:'Sopro da Vida', vi:'Hơi thở sự sống' },
 ];
 
 const LANGS = ['es','en','it','zh','ar','ru','de','fr','ja','pt','vi'];
