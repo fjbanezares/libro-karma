@@ -138,21 +138,30 @@ INPUT /Users/fjbanezares/libro del karma/00_introduccion/latex/capitulo_00.tex
 INPUT /Users/fjbanezares/libro del karma/00_introduccion/latex/capitulo_00.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-t1.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-t1.tfm
-INPUT /Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/latex/capitulo_01.tex
-INPUT /Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/latex/capitulo_01.tex
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond-Regular-osf-t1.vf
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-t1--base.tfm
-INPUT /Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/web/assets/juxtaposition.png
-INPUT /Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/web/assets/juxtaposition.png
-INPUT /Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/web/assets/juxtaposition.png
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Italic-osf-t1.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-sc-t1.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-sc-t1.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-t1.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond-Regular-osf-sc-t1.vf
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-sc-t1--base.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond-Regular-osf-t1.vf
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-t1--base.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond-Italic-osf-t1.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Italic-osf-t1--base.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond-Regular-osf-sc-t1.vf
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-sc-t1--base.tfm
+INPUT /Users/fjbanezares/libro del karma/00_introduccion/web/assets/seed_harvest.png
+INPUT /Users/fjbanezares/libro del karma/00_introduccion/web/assets/seed_harvest.png
+INPUT /Users/fjbanezares/libro del karma/00_introduccion/web/assets/seed_harvest.png
+INPUT /Users/fjbanezares/libro del karma/00_introduccion/web/assets/newton_soul.png
+INPUT /Users/fjbanezares/libro del karma/00_introduccion/web/assets/newton_soul.png
+INPUT /Users/fjbanezares/libro del karma/00_introduccion/web/assets/newton_soul.png
+INPUT /Users/fjbanezares/libro del karma/00_introduccion/web/assets/quantum_entanglement.png
+INPUT /Users/fjbanezares/libro del karma/00_introduccion/web/assets/quantum_entanglement.png
+INPUT /Users/fjbanezares/libro del karma/00_introduccion/web/assets/quantum_entanglement.png
+INPUT /Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/latex/capitulo_01.tex
+INPUT /Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/latex/capitulo_01.tex
+INPUT /Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/web/assets/juxtaposition.png
+INPUT /Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/web/assets/juxtaposition.png
+INPUT /Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/web/assets/juxtaposition.png
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-t1.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond-Regular-osf-t1.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-t1--base.tfm
 INPUT /Users/fjbanezares/libro del karma/02_fidelidad_y_familia/latex/capitulo_02.tex
@@ -180,6 +189,34 @@ INPUT /Users/fjbanezares/libro del karma/06_sobriedad_y_claridad/latex/capitulo_
 INPUT /Users/fjbanezares/libro del karma/06_sobriedad_y_claridad/web/assets/juxtaposition.png
 INPUT /Users/fjbanezares/libro del karma/06_sobriedad_y_claridad/web/assets/juxtaposition.png
 INPUT /Users/fjbanezares/libro del karma/06_sobriedad_y_claridad/web/assets/juxtaposition.png
+INPUT /Users/fjbanezares/libro del karma/07_manos_del_mal/latex/capitulo_07.tex
+INPUT /Users/fjbanezares/libro del karma/07_manos_del_mal/latex/capitulo_07.tex
+INPUT /Users/fjbanezares/libro del karma/07_manos_del_mal/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/07_manos_del_mal/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/07_manos_del_mal/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/07_manos_del_mal/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/07_manos_del_mal/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/08_pedestal_soberbia/latex/capitulo_08.tex
+INPUT /Users/fjbanezares/libro del karma/08_pedestal_soberbia/latex/capitulo_08.tex
+INPUT /Users/fjbanezares/libro del karma/08_pedestal_soberbia/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/08_pedestal_soberbia/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/08_pedestal_soberbia/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/08_pedestal_soberbia/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/08_pedestal_soberbia/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/09_frio_egoismo/latex/capitulo_09.tex
+INPUT /Users/fjbanezares/libro del karma/09_frio_egoismo/latex/capitulo_09.tex
+INPUT /Users/fjbanezares/libro del karma/09_frio_egoismo/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/09_frio_egoismo/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/09_frio_egoismo/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/09_frio_egoismo/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/09_frio_egoismo/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/10_infierno_sombras/latex/capitulo_10.tex
+INPUT /Users/fjbanezares/libro del karma/10_infierno_sombras/latex/capitulo_10.tex
+INPUT /Users/fjbanezares/libro del karma/10_infierno_sombras/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/10_infierno_sombras/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/10_infierno_sombras/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/10_infierno_sombras/web/assets/hero.png
+INPUT /Users/fjbanezares/libro del karma/10_infierno_sombras/web/assets/hero.png
 INPUT /Users/fjbanezares/libro del karma/libro_maestro.aux
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tcdnmr.enc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc
@@ -187,3 +224,7 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_byuyni.
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

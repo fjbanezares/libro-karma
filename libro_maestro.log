@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.14)  6 MAR 2026 02:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.14)  2 MAY 2026 05:07
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/fjbanezares/libro del karma/libro_maestro.tex"
-(/Users/fjbanezares/libro del karma/libro_maestro.tex
+**libro_maestro.tex
+(./libro_maestro.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/book.cls
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
@@ -23,23 +23,30 @@ File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2020/03/22 3.42 The Babel package
- (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/switch.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2020/03/22 3.42 Babel switching mechanism
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
- (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/03/22 3.42 Babel common definitions
 \babel@savecnt=\count176
 \U@D=\dimen135
- (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count177
 )
@@ -49,27 +56,39 @@ Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
-Package: ebgaramond 2020/02/27 (Bob Tennent and autoinst) Style file for EB Garamond fonts.
- (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
+Package: ebgaramond 2020/02/27 (Bob Tennent and autoinst) Style file for EB Gar
+amond fonts.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
- (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
-)) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks18
 \XKV@tempa@toks=\toks19
- (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/keyval.tex))
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count179
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2014/03/23 v1.0d Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -84,7 +103,8 @@ LaTeX Info: Redefining \textulc on input line 49.
 )
 LaTeX Info: Redefining \oldstylenums on input line 179.
 LaTeX Info: Redefining \textsw on input line 187.
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
 \MT@toks=\toks20
 \MT@count=\count180
@@ -92,19 +112,25 @@ LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen136
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
 \MT@listname@count=\count181
- (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
+
 LaTeX Info: Redefining \lsstyle on input line 914.
 LaTeX Info: Redefining \lslig on input line 914.
 \MT@outer@space=\skip49
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/lettrine/lettrine.sty
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2020-03-14 v2.23 (Daniel Flipo)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/minifp/minifp.sty
-Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack-based programing language.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/minifp/minifp.sty
+Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
+-based programing language.
 \MFP@loopctr=\count182
 )
 \c@DefaultLines=\count183
@@ -135,9 +161,11 @@ Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack-
 \Llist@everypar=\toks21
 
 Loading lettrine.cfg
-(/usr/local/texlive/2020/texmf-dist/tex/latex/lettrine/lettrine.cfg)) (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lettrine/lettrine.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count187
@@ -152,7 +180,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen162
 \Gm@layoutvoffset=\dimen163
 \Gm@dimlist=\toks22
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box47
 \beforetitleunit=\skip50
@@ -163,13 +192,16 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidth=\dimen166
 \titlewidthlast=\dimen167
 \titlewidthfirst=\dimen168
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -181,8 +213,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
 \f@nch@headwidth=\skip52
 \f@nch@O@elh=\skip53
 \f@nch@O@erh=\skip54
@@ -192,22 +226,28 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@erf=\skip58
 \f@nch@O@olf=\skip59
 \f@nch@O@orf=\skip60
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
 \Gin@req@height=\dimen169
 \Gin@req@width=\dimen170
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
 \captionmargin=\dimen171
@@ -221,57 +261,510 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count190
 \c@continuedfloat=\count191
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count192
-\l__pdf_internal_box=\box48
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen178
+\WF@size=\dimen179
+\c@WF@wrappedlines=\count192
+\WF@box=\box48
+\WF@everypar=\toks24
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-03-06 L3 programming layer (loader) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count193
+\l__pdf_internal_box=\box49
+))
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count194
+\g__xparse_grabber_int=\count195
+\l__xparse_m_args_int=\count196
+\l__xparse_v_nesting_int=\count197
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count198
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2020-03-03 v2.29 Module abspage for zref (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2020-03-03 v2.29 Module base for zref (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 763.
+Package zref Info: New property: default on input line 764.
+Package zref Info: New property: page on input line 765.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\c@abspage=\count199
+Package zref Info: New property: abspage on input line 66.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip61
+\c@mdf@globalstyle@cnt=\count266
+\mdf@skipabove@length=\skip62
+\mdf@skipbelow@length=\skip63
+\mdf@leftmargin@length=\skip64
+\mdf@rightmargin@length=\skip65
+\mdf@innerleftmargin@length=\skip66
+\mdf@innerrightmargin@length=\skip67
+\mdf@innertopmargin@length=\skip68
+\mdf@innerbottommargin@length=\skip69
+\mdf@splittopskip@length=\skip70
+\mdf@splitbottomskip@length=\skip71
+\mdf@outermargin@length=\skip72
+\mdf@innermargin@length=\skip73
+\mdf@linewidth@length=\skip74
+\mdf@innerlinewidth@length=\skip75
+\mdf@middlelinewidth@length=\skip76
+\mdf@outerlinewidth@length=\skip77
+\mdf@roundcorner@length=\skip78
+\mdf@footenotedistance@length=\skip79
+\mdf@userdefinedwidth@length=\skip80
+\mdf@needspace@length=\skip81
+\mdf@frametitleaboveskip@length=\skip82
+\mdf@frametitlebelowskip@length=\skip83
+\mdf@frametitlerulewidth@length=\skip84
+\mdf@frametitleleftmargin@length=\skip85
+\mdf@frametitlerightmargin@length=\skip86
+\mdf@shadowsize@length=\skip87
+\mdf@extratopheight@length=\skip88
+\mdf@subtitleabovelinewidth@length=\skip89
+\mdf@subtitlebelowlinewidth@length=\skip90
+\mdf@subtitleaboveskip@length=\skip91
+\mdf@subtitlebelowskip@length=\skip92
+\mdf@subtitleinneraboveskip@length=\skip93
+\mdf@subtitleinnerbelowskip@length=\skip94
+\mdf@subsubtitleabovelinewidth@length=\skip95
+\mdf@subsubtitlebelowlinewidth@length=\skip96
+\mdf@subsubtitleaboveskip@length=\skip97
+\mdf@subsubtitlebelowskip@length=\skip98
+\mdf@subsubtitleinneraboveskip@length=\skip99
+\mdf@subsubtitleinnerbelowskip@length=\skip100
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box50
+\mdf@footnotebox=\box51
+\mdf@splitbox@one=\box52
+\mdf@splitbox@two=\box53
+\mdf@splitbox@save=\box54
+\mdfsplitboxwidth=\skip101
+\mdfsplitboxtotalwidth=\skip102
+\mdfsplitboxheight=\skip103
+\mdfsplitboxdepth=\skip104
+\mdfsplitboxtotalheight=\skip105
+\mdfframetitleboxwidth=\skip106
+\mdfframetitleboxtotalwidth=\skip107
+\mdfframetitleboxheight=\skip108
+\mdfframetitleboxdepth=\skip109
+\mdfframetitleboxtotalheight=\skip110
+\mdffootnoteboxwidth=\skip111
+\mdffootnoteboxtotalwidth=\skip112
+\mdffootnoteboxheight=\skip113
+\mdffootnoteboxdepth=\skip114
+\mdffootnoteboxtotalheight=\skip115
+\mdftotallinewidth=\skip116
+\mdfboundingboxwidth=\skip117
+\mdfboundingboxtotalwidth=\skip118
+\mdfboundingboxheight=\skip119
+\mdfboundingboxdepth=\skip120
+\mdfboundingboxtotalheight=\skip121
+\mdf@freevspace@length=\skip122
+\mdf@horizontalwidthofbox@length=\skip123
+\mdf@verticalmarginwhole@length=\skip124
+\mdf@horizontalspaceofbox=\skip125
+\mdfsubtitleheight=\skip126
+\mdfsubsubtitleheight=\skip127
+\c@mdfcountframes=\count267
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count268
+\c@mdf@env@i=\count269
+\c@mdf@env@ii=\count270
+\c@mdf@zref@counter=\count271
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen180
+\pgfutil@tempdimb=\dimen181
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box55
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen182
+\pgf@y=\dimen183
+\pgf@xa=\dimen184
+\pgf@ya=\dimen185
+\pgf@xb=\dimen186
+\pgf@yb=\dimen187
+\pgf@xc=\dimen188
+\pgf@yc=\dimen189
+\pgf@xd=\dimen190
+\pgf@yd=\dimen191
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count272
+\c@pgf@countb=\count273
+\c@pgf@countc=\count274
+\c@pgf@countd=\count275
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count276
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count277
+\pgfsyssoftpath@bigbuffer@items=\count278
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen192
+\pgfmath@count=\count279
+\pgfmath@box=\box56
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count280
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen193
+\pgf@picmaxx=\dimen194
+\pgf@picminy=\dimen195
+\pgf@picmaxy=\dimen196
+\pgf@pathminx=\dimen197
+\pgf@pathmaxx=\dimen198
+\pgf@pathminy=\dimen199
+\pgf@pathmaxy=\dimen256
+\pgf@xx=\dimen257
+\pgf@xy=\dimen258
+\pgf@yx=\dimen259
+\pgf@yy=\dimen260
+\pgf@zx=\dimen261
+\pgf@zy=\dimen262
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen263
+\pgf@path@lasty=\dimen264
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen265
+\pgf@shorten@start@additional=\dimen266
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count281
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen267
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen268
+\pgf@pt@y=\dimen269
+\pgf@pt@temp=\dimen270
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen271
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen272
+\pgf@sys@shading@range@num=\count282
+\pgf@shadingcount=\count283
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box60
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box61
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen273
+\pgf@nodesepend=\dimen274
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen275
+\pgffor@skip=\dimen276
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count284
+\pgfplotmarksize=\dimen277
+)
+\tikz@lastx=\dimen278
+\tikz@lasty=\dimen279
+\tikz@lastxsaved=\dimen280
+\tikz@lastysaved=\dimen281
+\tikz@lastmovetox=\dimen282
+\tikz@lastmovetoy=\dimen283
+\tikzleveldistance=\dimen284
+\tikzsiblingdistance=\dimen285
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count285
+\tikznumberofchildren=\count286
+\tikznumberofcurrentchild=\count287
+\tikz@fig@count=\count288
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count289
+\pgfmatrixcurrentcolumn=\count290
+\pgf@matrix@numberofcolumns=\count291
+)
+\tikz@expandcount=\count292
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+\picbox=\box66
+
 
 LaTeX Warning: Unused global option(s):
     [paper=6in:9in,pagesize=pdftex].
 
-(/Users/fjbanezares/libro del karma/libro_maestro.aux
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
+(./libro_maestro.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
 )
 \openout1 = `libro_maestro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Trying to load font information for T1+EBGaramond-OsF on input line 69.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-OsF.fd
-File: T1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for T1/EBGaramond-OsF.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Trying to load font information for T1+EBGaramond-OsF on in
+put line 127.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-OsF.fd
+File: T1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for T1/EBGaram
+ond-OsF.
 )
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <12> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 69.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <12> not availab
+le
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 127.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 69.
-LaTeX Info: Redefining \. on input line 69.
-LaTeX Info: Redefining \% on input line 69.
-\c@mv@tabular=\count193
-\c@mv@boldtabular=\count194
-LaTeX Info: Redefining \microtypecontext on input line 69.
+(Font)              scaled to size 12.0pt on input line 127.
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+\c@mv@tabular=\count293
+\c@mv@boldtabular=\count294
+LaTeX Info: Redefining \microtypecontext on input line 127.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 69.
+LaTeX Info: Redefining \showhyphens on input line 127.
 Package microtype Info: Tracking enabled.
 Package microtype Info: Using default tracking set `smallcaps'.
 Package microtype Info: No adjustment of interword spacing.
@@ -317,240 +810,957 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count195
-\scratchdimen=\dimen178
-\scratchbox=\box49
-\nofMPsegments=\count196
-\nofMParguments=\count197
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count198
-\MPscratchDim=\dimen179
-\MPnumerator=\count199
-\makeMPintoPDFobject=\count266
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count295
+\scratchdimen=\dimen286
+\scratchbox=\box67
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen287
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks38
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <24.88> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 76.
+\AtBeginShipoutBox=\box68
+
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <24.88> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 134.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 76.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <24.88> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on input line 76.
+(Font)              scaled to size 24.88pt on input line 134.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <24.88> not ava
+ilable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on 
+input line 134.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/sc' will be
-(Font)              scaled to size 24.88pt on input line 76.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <17.28> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 78.
+(Font)              scaled to size 24.88pt on input line 134.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <17.28> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 136.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 78.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <17.28> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on input line 78.
+(Font)              scaled to size 17.28pt on input line 136.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <17.28> not ava
+ilable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
+input line 136.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
-(Font)              scaled to size 17.28pt on input line 78.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <10.95> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 82.
+(Font)              scaled to size 17.28pt on input line 136.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <10.95> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 140.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 82.
+(Font)              scaled to size 10.95pt on input line 140.
  [1
 
 
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 86.
+(Font)              <12> on input line 144.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 86.
+(Font)              <8> on input line 144.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 86.
- (/Users/fjbanezares/libro del karma/libro_maestro.toc
+(Font)              <6> on input line 144.
+
+(./libro_maestro.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <12> not available
-(Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <12> not availab
+le
+(Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
+t line 2.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
 (Font)              scaled to size 12.0pt on input line 2.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <12> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on input line 23.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <12> not availa
+ble
+(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on 
+input line 20.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/sc' will be
-(Font)              scaled to size 12.0pt on input line 23.
+(Font)              scaled to size 12.0pt on input line 20.
  [1
 
 
-])
-\tf@toc=\write3
-\openout3 = `libro_maestro.toc'.
+] [2] [3])
+\tf@toc=\write4
+\openout4 = `libro_maestro.toc'.
 
- [2] (/Users/fjbanezares/libro del karma/00_introduccion/latex/capitulo_00.tex
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <38.74382> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 4.
+ [4] (./00_introduccion/latex/capitulo_00.tex
+Cap\'{\i }tulo 1.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <14.4> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on 
+input line 1.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/sc' will be
+(Font)              scaled to size 14.4pt on input line 1.
+<00_introduccion/web/assets/intro.png, id=25, 642.4pt x 642.4pt>
+File: 00_introduccion/web/assets/intro.png Graphic file (type png)
+<use 00_introduccion/web/assets/intro.png>
+Package pdftex.def Info: 00_introduccion/web/assets/intro.png  used on input li
+ne 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <38.74382> not a
+vailable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 5.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 38.74382pt on input line 4.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <55.15152> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 4.
+(Font)              scaled to size 38.74382pt on input line 5.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <55.15152> not a
+vailable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 5.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 55.15152pt on input line 4.
+(Font)              scaled to size 55.15152pt on input line 5.
 Package lettrine.sty Info: Targeted height = 38.74382pt
 (lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 35.48996pt (E);
-(lettrine.sty)             reported on input line 4.
-) (/Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/latex/capitulo_01.tex [1
+(lettrine.sty)             Lettrine height = 37.08112pt (S);
+(lettrine.sty)             reported on input line 5.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <17.28> not ava
+ilable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on 
+input line 9.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/sc' will be
+(Font)              scaled to size 17.28pt on input line 9.
+[1
 
 
 ]
-Cap\'{\i }tulo 1.
-<01_esfuerzo_desinteresado/web/assets/juxtaposition.png, id=19, 642.4pt x 642.4pt>
-File: 01_esfuerzo_desinteresado/web/assets/juxtaposition.png Graphic file (type png)
-<use 01_esfuerzo_desinteresado/web/assets/juxtaposition.png>
-Package pdftex.def Info: 01_esfuerzo_desinteresado/web/assets/juxtaposition.png  used on input line 5.
-(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <12> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on input line 6.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <12> not availa
+ble
+(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
+input line 12.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 6.
+(Font)              scaled to size 12.0pt on input line 12.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <6> not availab
+le
+(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
+input line 12.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line 12.
+<00_introduccion/web/assets/seed_harvest.png, id=29, 642.4pt x 642.4pt>
+File: 00_introduccion/web/assets/seed_harvest.png Graphic file (type png)
+<use 00_introduccion/web/assets/seed_harvest.png>
+Package pdftex.def Info: 00_introduccion/web/assets/seed_harvest.png  used on i
+nput line 14.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+ [2 <./00_introduccion/web/assets/intro.png (PNG copy)>] [3 <./00_introduccion/
+web/assets/seed_harvest.png (PNG copy)>]
+<00_introduccion/web/assets/newton_soul.png, id=37, 642.4pt x 642.4pt>
+File: 00_introduccion/web/assets/newton_soul.png Graphic file (type png)
+<use 00_introduccion/web/assets/newton_soul.png>
+Package pdftex.def Info: 00_introduccion/web/assets/newton_soul.png  used on in
+put line 31.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <8> not availabl
+e
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 34.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 34.
+ [4 <./00_introduccion/web/assets/newton_soul.png (PNG copy)>]
+<00_introduccion/web/assets/quantum_entanglement.png, id=45, 642.4pt x 642.4pt>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+File: 00_introduccion/web/assets/quantum_entanglement.png Graphic file (type pn
+g)
+<use 00_introduccion/web/assets/quantum_entanglement.png>
+Package pdftex.def Info: 00_introduccion/web/assets/quantum_entanglement.png  u
+sed on input line 38.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+ [5 <./00_introduccion/web/assets/quantum_entanglement.png (PNG copy)>]
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <17.28> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
+t line 47.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
+(Font)              scaled to size 17.28pt on input line 47.
+) (./01_esfuerzo_desinteresado/latex/capitulo_01.tex [6]
+Cap\'{\i }tulo 2.
+<01_esfuerzo_desinteresado/web/assets/juxtaposition.png, id=52, 642.4pt x 642.4
+pt>
+File: 01_esfuerzo_desinteresado/web/assets/juxtaposition.png Graphic file (type
+ png)
+<use 01_esfuerzo_desinteresado/web/assets/juxtaposition.png>
+Package pdftex.def Info: 01_esfuerzo_desinteresado/web/assets/juxtaposition.png
+  used on input line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (B);
+(lettrine.sty)             reported on input line 5.
+[7
 
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <17.28> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on input line 9.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/sc' will be
-(Font)              scaled to size 17.28pt on input line 9.
+]
+Package mdframed Info: Not enough space on this page on input line 18.
+ [8 <./01_esfuerzo_desinteresado/web/assets/juxtaposition.png (PNG copy)>]
+<01_esfuerzo_desinteresado/web/assets/hero_v1.png, id=60, 642.4pt x 642.4pt>
+File: 01_esfuerzo_desinteresado/web/assets/hero_v1.png Graphic file (type png)
+<use 01_esfuerzo_desinteresado/web/assets/hero_v1.png>
+Package pdftex.def Info: 01_esfuerzo_desinteresado/web/assets/hero_v1.png  used
+ on input line 20.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
 
-Overfull \hbox (2.4393pt too wide) in paragraph at lines 9--9
-|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls La Se-mi-lla del Pa-sa-do: El Su-dor
+Overfull \hbox (8.44235pt too wide) in paragraph at lines 28--28
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
  []
 
+<01_esfuerzo_desinteresado/web/assets/pasaje_original.jpg, id=61, 331.2375pt x 
+135.50626pt>
+File: 01_esfuerzo_desinteresado/web/assets/pasaje_original.jpg Graphic file (ty
+pe jpg)
+<use 01_esfuerzo_desinteresado/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 01_esfuerzo_desinteresado/web/assets/pasaje_original.j
+pg  used on input line 32.
+(pdftex.def)             Requested size: 146.34575pt x 59.86897pt.
+[9 <./01_esfuerzo_desinteresado/web/assets/hero_v1.png (PNG copy)>])
+(./02_fidelidad_y_familia/latex/capitulo_02.tex [10 <./01_esfuerzo_desinteresad
+o/web/assets/pasaje_original.jpg>]
+Cap\'{\i }tulo 3.
+<02_fidelidad_y_familia/web/assets/juxtaposition.png, id=68, 642.4pt x 642.4pt>
+
+File: 02_fidelidad_y_familia/web/assets/juxtaposition.png Graphic file (type pn
+g)
+<use 02_fidelidad_y_familia/web/assets/juxtaposition.png>
+Package pdftex.def Info: 02_fidelidad_y_familia/web/assets/juxtaposition.png  u
+sed on input line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (I);
+(lettrine.sty)             reported on input line 5.
+[11
+
+]
+Overfull \hbox (8.44235pt too wide) in paragraph at lines 23--23
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<02_fidelidad_y_familia/web/assets/pasaje_original.jpg, id=72, 336.25626pt x 12
+0.45pt>
+File: 02_fidelidad_y_familia/web/assets/pasaje_original.jpg Graphic file (type 
+jpg)
+<use 02_fidelidad_y_familia/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 02_fidelidad_y_familia/web/assets/pasaje_original.jpg 
+ used on input line 27.
+(pdftex.def)             Requested size: 146.34575pt x 52.42288pt.
+[12 <./02_fidelidad_y_familia/web/assets/juxtaposition.png (PNG copy)>])
+(./03_generosidad_y_prosperidad/latex/capitulo_03.tex [13 <./02_fidelidad_y_fam
+ilia/web/assets/pasaje_original.jpg>]
+Cap\'{\i }tulo 4.
+<03_generosidad_y_prosperidad/web/assets/juxtaposition.png, id=79, 642.4pt x 64
+2.4pt>
+File: 03_generosidad_y_prosperidad/web/assets/juxtaposition.png Graphic file (t
+ype png)
+<use 03_generosidad_y_prosperidad/web/assets/juxtaposition.png>
+Package pdftex.def Info: 03_generosidad_y_prosperidad/web/assets/juxtaposition.
+png  used on input line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
 Package lettrine.sty Info: Targeted height = 38.74382pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 35.48996pt (E);
-(lettrine.sty)             reported on input line 11.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <8> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 17.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 17.
-[2
+(lettrine.sty)             reported on input line 5.
+[14
 
-] [3 </Users/fjbanezares/libro del karma/01_esfuerzo_desinteresado/web/assets/juxtaposition.png (PNG copy)>]) (/Users/fjbanezares/libro del karma/02_fidelidad_y_familia/latex/capitulo_02.tex [4]
-Cap\'{\i }tulo 2.
-<02_fidelidad_y_familia/web/assets/juxtaposition.png, id=30, 642.4pt x 642.4pt>
-File: 02_fidelidad_y_familia/web/assets/juxtaposition.png Graphic file (type png)
-<use 02_fidelidad_y_familia/web/assets/juxtaposition.png>
-Package pdftex.def Info: 02_fidelidad_y_familia/web/assets/juxtaposition.png  used on input line 5.
+]
+Overfull \hbox (10.51595pt too wide) in paragraph at lines 23--23
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<03_generosidad_y_prosperidad/web/assets/pasaje_original.jpg, id=84, 336.25626p
+t x 120.45pt>
+File: 03_generosidad_y_prosperidad/web/assets/pasaje_original.jpg Graphic file 
+(type jpg)
+<use 03_generosidad_y_prosperidad/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 03_generosidad_y_prosperidad/web/assets/pasaje_origina
+l.jpg  used on input line 27.
+(pdftex.def)             Requested size: 146.34575pt x 52.42288pt.
+[15 <./03_generosidad_y_prosperidad/web/assets/juxtaposition.png (PNG copy)>])
+(./04_respeto_por_la_vida/latex/capitulo_04.tex [16 <./03_generosidad_y_prosper
+idad/web/assets/pasaje_original.jpg>]
+Cap\'{\i }tulo 5.
+<04_respeto_por_la_vida/web/assets/juxtaposition.png, id=91, 642.4pt x 642.4pt>
+
+File: 04_respeto_por_la_vida/web/assets/juxtaposition.png Graphic file (type pn
+g)
+<use 04_respeto_por_la_vida/web/assets/juxtaposition.png>
+Package pdftex.def Info: 04_respeto_por_la_vida/web/assets/juxtaposition.png  u
+sed on input line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (H);
+(lettrine.sty)             reported on input line 5.
+[17
+
+]
+Overfull \hbox (8.21773pt too wide) in paragraph at lines 23--23
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<04_respeto_por_la_vida/web/assets/pasaje_original.jpg, id=95, 341.275pt x 120.
+45pt>
+File: 04_respeto_por_la_vida/web/assets/pasaje_original.jpg Graphic file (type 
+jpg)
+<use 04_respeto_por_la_vida/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 04_respeto_por_la_vida/web/assets/pasaje_original.jpg 
+ used on input line 27.
+(pdftex.def)             Requested size: 146.34575pt x 51.65096pt.
+[18 <./04_respeto_por_la_vida/web/assets/juxtaposition.png (PNG copy)>])
+(./05_pureza_mental/latex/capitulo_05.tex [19 <./04_respeto_por_la_vida/web/ass
+ets/pasaje_original.jpg>]
+Cap\'{\i }tulo 6.
+<05_pureza_mental/web/assets/juxtaposition.png, id=102, 642.4pt x 642.4pt>
+File: 05_pureza_mental/web/assets/juxtaposition.png Graphic file (type png)
+<use 05_pureza_mental/web/assets/juxtaposition.png>
+Package pdftex.def Info: 05_pureza_mental/web/assets/juxtaposition.png  used on
+ input line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 38.7439pt (T);
+(lettrine.sty)             reported on input line 5.
+[20
+
+]
+Overfull \hbox (10.46413pt too wide) in paragraph at lines 23--23
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<05_pureza_mental/web/assets/pasaje_original.jpg, id=107, 346.29375pt x 125.468
+75pt>
+File: 05_pureza_mental/web/assets/pasaje_original.jpg Graphic file (type jpg)
+<use 05_pureza_mental/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 05_pureza_mental/web/assets/pasaje_original.jpg  used 
+on input line 27.
+(pdftex.def)             Requested size: 146.34575pt x 53.02388pt.
+[21 <./05_pureza_mental/web/assets/juxtaposition.png (PNG copy)>])
+(./06_sobriedad_y_claridad/latex/capitulo_06.tex [22 <./05_pureza_mental/web/as
+sets/pasaje_original.jpg>]
+Cap\'{\i }tulo 7.
+<06_sobriedad_y_claridad/web/assets/juxtaposition.png, id=114, 642.4pt x 642.4p
+t>
+File: 06_sobriedad_y_claridad/web/assets/juxtaposition.png Graphic file (type p
+ng)
+<use 06_sobriedad_y_claridad/web/assets/juxtaposition.png>
+Package pdftex.def Info: 06_sobriedad_y_claridad/web/assets/juxtaposition.png  
+used on input line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (K);
+(lettrine.sty)             reported on input line 5.
+[23
+
+]
+Overfull \hbox (9.963pt too wide) in paragraph at lines 23--23
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<06_sobriedad_y_claridad/web/assets/pasaje_original.jpg, id=118, 356.33125pt x 
+135.50626pt>
+File: 06_sobriedad_y_claridad/web/assets/pasaje_original.jpg Graphic file (type
+ jpg)
+<use 06_sobriedad_y_claridad/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 06_sobriedad_y_claridad/web/assets/pasaje_original.jpg
+  used on input line 27.
+(pdftex.def)             Requested size: 146.34575pt x 55.65096pt.
+[24 <./06_sobriedad_y_claridad/web/assets/juxtaposition.png (PNG copy)>])
+(./07_manos_del_mal/latex/capitulo_07.tex [25 <./06_sobriedad_y_claridad/web/as
+sets/pasaje_original.jpg>]
+Cap\'{\i }tulo 8.
+<07_manos_del_mal/web/assets/hero.png, id=125, 642.4pt x 642.4pt>
+File: 07_manos_del_mal/web/assets/hero.png Graphic file (type png)
+<use 07_manos_del_mal/web/assets/hero.png>
+Package pdftex.def Info: 07_manos_del_mal/web/assets/hero.png  used on input li
+ne 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (E);
+(lettrine.sty)             reported on input line 5.
+[26
+
+]
+Overfull \hbox (9.82475pt too wide) in paragraph at lines 23--23
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<07_manos_del_mal/web/assets/pasaje_original.jpg, id=130, 479.7925pt x 140.525p
+t>
+File: 07_manos_del_mal/web/assets/pasaje_original.jpg Graphic file (type jpg)
+<use 07_manos_del_mal/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 07_manos_del_mal/web/assets/pasaje_original.jpg  used 
+on input line 27.
+(pdftex.def)             Requested size: 146.34575pt x 42.86327pt.
+[27 <./07_manos_del_mal/web/assets/hero.png (PNG copy)>])
+(./08_pedestal_soberbia/latex/capitulo_08.tex [28 <./07_manos_del_mal/web/asset
+s/pasaje_original.jpg>]
+Cap\'{\i }tulo 9.
+<08_pedestal_soberbia/web/assets/hero.png, id=137, 642.4pt x 642.4pt>
+File: 08_pedestal_soberbia/web/assets/hero.png Graphic file (type png)
+<use 08_pedestal_soberbia/web/assets/hero.png>
+Package pdftex.def Info: 08_pedestal_soberbia/web/assets/hero.png  used on inpu
+t line 3.
 (pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
 Package lettrine.sty Info: Targeted height = 38.74382pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 37.08112pt (S);
-(lettrine.sty)             reported on input line 11.
-[5
+(lettrine.sty)             reported on input line 5.
 
- </Users/fjbanezares/libro del karma/02_fidelidad_y_familia/web/assets/juxtaposition.png (PNG copy)>]
-Overfull \hbox (4.35735pt too wide) in paragraph at lines 13--13
-|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls El Fru-to del Pre-sen-te: El Si-len-
+Overfull \hbox (7.4574pt too wide) in paragraph at lines 13--13
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
  []
 
-) (/Users/fjbanezares/libro del karma/03_generosidad_y_prosperidad/latex/capitulo_03.tex [6]
-Cap\'{\i }tulo 3.
-<03_generosidad_y_prosperidad/web/assets/juxtaposition.png, id=37, 642.4pt x 642.4pt>
-File: 03_generosidad_y_prosperidad/web/assets/juxtaposition.png Graphic file (type png)
-<use 03_generosidad_y_prosperidad/web/assets/juxtaposition.png>
-Package pdftex.def Info: 03_generosidad_y_prosperidad/web/assets/juxtaposition.png  used on input line 5.
+<08_pedestal_soberbia/web/assets/pasaje_original.jpg, id=138, 479.7925pt x 130.
+4875pt>
+File: 08_pedestal_soberbia/web/assets/pasaje_original.jpg Graphic file (type jp
+g)
+<use 08_pedestal_soberbia/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 08_pedestal_soberbia/web/assets/pasaje_original.jpg  u
+sed on input line 17.
+(pdftex.def)             Requested size: 146.34575pt x 39.8016pt.
+[29
+
+]) (./09_frio_egoismo/latex/capitulo_09.tex [30 <./08_pedestal_soberbia/web/ass
+ets/hero.png (PNG copy)> <./08_pedestal_soberbia/web/assets/pasaje_original.jpg
+>]
+Cap\'{\i }tulo 10.
+<09_frio_egoismo/web/assets/hero.png, id=145, 642.4pt x 642.4pt>
+File: 09_frio_egoismo/web/assets/hero.png Graphic file (type png)
+<use 09_frio_egoismo/web/assets/hero.png>
+Package pdftex.def Info: 09_frio_egoismo/web/assets/hero.png  used on input lin
+e 3.
 (pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (N);
+(lettrine.sty)             reported on input line 5.
+[31
 
-Overfull \hbox (7.50229pt too wide) in paragraph at lines 9--9
-|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls La Se-mi-lla del Pa-sa-do: El Grano
+]
+Overfull \hbox (17.49707pt too wide) in paragraph at lines 23--23
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
  []
 
+<09_frio_egoismo/web/assets/pasaje_original.jpg, id=149, 479.7925pt x 120.45pt>
+
+File: 09_frio_egoismo/web/assets/pasaje_original.jpg Graphic file (type jpg)
+<use 09_frio_egoismo/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 09_frio_egoismo/web/assets/pasaje_original.jpg  used o
+n input line 27.
+(pdftex.def)             Requested size: 146.34575pt x 36.73994pt.
+[32 <./09_frio_egoismo/web/assets/hero.png (PNG copy)>])
+(./10_infierno_sombras/latex/capitulo_10.tex [33 <./09_frio_egoismo/web/assets/
+pasaje_original.jpg>]
+Cap\'{\i }tulo 11.
+<10_infierno_sombras/web/assets/hero.png, id=157, 642.4pt x 642.4pt>
+File: 10_infierno_sombras/web/assets/hero.png Graphic file (type png)
+<use 10_infierno_sombras/web/assets/hero.png>
+Package pdftex.def Info: 10_infierno_sombras/web/assets/hero.png  used on input
+ line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 37.08112pt (A);
+(lettrine.sty)             reported on input line 5.
+[34
+
+] [35 <./10_infierno_sombras/web/assets/hero.png (PNG copy)>]
+Overfull \hbox (13.73003pt too wide) in paragraph at lines 23--23
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<10_infierno_sombras/web/assets/pasaje_original.jpg, id=164, 479.7925pt x 120.4
+5pt>
+File: 10_infierno_sombras/web/assets/pasaje_original.jpg Graphic file (type jpg
+)
+<use 10_infierno_sombras/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 10_infierno_sombras/web/assets/pasaje_original.jpg  us
+ed on input line 27.
+(pdftex.def)             Requested size: 146.34575pt x 36.73994pt.
+) (./11_mirada_desprecio/latex/capitulo_11.tex [36 <./10_infierno_sombras/web/a
+ssets/pasaje_original.jpg>]
+Cap\'{\i }tulo 12.
+<11_mirada_desprecio/web/assets/hero.png, id=168, 642.4pt x 642.4pt>
+File: 11_mirada_desprecio/web/assets/hero.png Graphic file (type png)
+<use 11_mirada_desprecio/web/assets/hero.png>
+Package pdftex.def Info: 11_mirada_desprecio/web/assets/hero.png  used on input
+ line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (M);
+(lettrine.sty)             reported on input line 5.
+[37
+
+]
+Overfull \hbox (16.3393pt too wide) in paragraph at lines 23--23
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<11_mirada_desprecio/web/assets/pasaje_original.jpg, id=172, 479.7925pt x 130.4
+875pt>
+File: 11_mirada_desprecio/web/assets/pasaje_original.jpg Graphic file (type jpg
+)
+<use 11_mirada_desprecio/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 11_mirada_desprecio/web/assets/pasaje_original.jpg  us
+ed on input line 27.
+(pdftex.def)             Requested size: 146.34575pt x 39.8016pt.
+[38 <./11_mirada_desprecio/web/assets/hero.png (PNG copy)>])
+(./12_peso_injusticia/latex/capitulo_12.tex [39 <./11_mirada_desprecio/web/asse
+ts/pasaje_original.jpg>]
+Cap\'{\i }tulo 13.
+<12_peso_injusticia/web/assets/hero.png, id=180, 642.4pt x 642.4pt>
+File: 12_peso_injusticia/web/assets/hero.png Graphic file (type png)
+<use 12_peso_injusticia/web/assets/hero.png>
+Package pdftex.def Info: 12_peso_injusticia/web/assets/hero.png  used on input 
+line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
 Package lettrine.sty Info: Targeted height = 38.74382pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 35.48996pt (E);
-(lettrine.sty)             reported on input line 11.
-[7
+(lettrine.sty)             reported on input line 5.
+[40
 
- </Users/fjbanezares/libro del karma/03_generosidad_y_prosperidad/web/assets/juxtaposition.png (PNG copy)>]) (/Users/fjbanezares/libro del karma/04_respeto_por_la_vida/latex/capitulo_04.tex [8] [9]
-Cap\'{\i }tulo 4.
-<04_respeto_por_la_vida/web/assets/juxtaposition.png, id=47, 642.4pt x 642.4pt>
-File: 04_respeto_por_la_vida/web/assets/juxtaposition.png Graphic file (type png)
-<use 04_respeto_por_la_vida/web/assets/juxtaposition.png>
-Package pdftex.def Info: 04_respeto_por_la_vida/web/assets/juxtaposition.png  used on input line 5.
-(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
-
-Overfull \hbox (10.05978pt too wide) in paragraph at lines 9--9
-|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls La Se-mi-lla del Pa-sa-do: El Cu-chi-
+]
+Overfull \hbox (15.16426pt too wide) in paragraph at lines 23--23
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
  []
 
+<12_peso_injusticia/web/assets/pasaje_original.jpg, id=184, 479.7925pt x 160.6p
+t>
+File: 12_peso_injusticia/web/assets/pasaje_original.jpg Graphic file (type jpg)
+
+<use 12_peso_injusticia/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 12_peso_injusticia/web/assets/pasaje_original.jpg  use
+d on input line 27.
+(pdftex.def)             Requested size: 146.34575pt x 48.98659pt.
+[41 <./12_peso_injusticia/web/assets/hero.png (PNG copy)>])
+(./13_amor_y_respeto/latex/capitulo_13.tex [42 <./12_peso_injusticia/web/assets
+/pasaje_original.jpg>]
+Cap\'{\i }tulo 14.
+<13_amor_y_respeto/web/assets/hero.jpg, id=191, 642.4pt x 642.4pt>
+File: 13_amor_y_respeto/web/assets/hero.jpg Graphic file (type jpg)
+<use 13_amor_y_respeto/web/assets/hero.jpg>
+Package pdftex.def Info: 13_amor_y_respeto/web/assets/hero.jpg  used on input l
+ine 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
 Package lettrine.sty Info: Targeted height = 38.74382pt
 (lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 35.48996pt (H);
-(lettrine.sty)             reported on input line 11.
-[10
+(lettrine.sty)             Lettrine height = 35.48996pt (E);
+(lettrine.sty)             reported on input line 5.
+[43
 
- </Users/fjbanezares/libro del karma/04_respeto_por_la_vida/web/assets/juxtaposition.png (PNG copy)>]) (/Users/fjbanezares/libro del karma/05_pureza_mental/latex/capitulo_05.tex [11]
-Cap\'{\i }tulo 5.
-<05_pureza_mental/web/assets/juxtaposition.png, id=55, 642.4pt x 642.4pt>
-File: 05_pureza_mental/web/assets/juxtaposition.png Graphic file (type png)
-<use 05_pureza_mental/web/assets/juxtaposition.png>
-Package pdftex.def Info: 05_pureza_mental/web/assets/juxtaposition.png  used on input line 5.
+]
+Package mdframed Info: Not enough space on this page on input line 19.
+<13_amor_y_respeto/web/assets/art.jpg, id=195, 642.4pt x 642.4pt>
+File: 13_amor_y_respeto/web/assets/art.jpg Graphic file (type jpg)
+<use 13_amor_y_respeto/web/assets/art.jpg>
+Package pdftex.def Info: 13_amor_y_respeto/web/assets/art.jpg  used on input li
+ne 21.
 (pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (16.33237pt too wide) in paragraph at lines 9--9
-|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls La Se-mi-lla del Pa-sa-do: El Ve-neno
+ [44 <./13_amor_y_respeto/web/assets/hero.jpg (PNG copy)>]
+Overfull \hbox (17.23785pt too wide) in paragraph at lines 29--29
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
  []
 
+<13_amor_y_respeto/web/assets/pasaje_original.jpg, id=200, 331.2375pt x 130.487
+5pt>
+File: 13_amor_y_respeto/web/assets/pasaje_original.jpg Graphic file (type jpg)
+<use 13_amor_y_respeto/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 13_amor_y_respeto/web/assets/pasaje_original.jpg  used
+ on input line 33.
+(pdftex.def)             Requested size: 146.34575pt x 57.6516pt.
+) (./14_peso_deudores/latex/capitulo_14.tex [45 <./13_amor_y_respeto/web/assets
+/art.jpg (PNG copy)> <./13_amor_y_respeto/web/assets/pasaje_original.jpg>]
+[46]
+Cap\'{\i }tulo 15.
+<14_peso_deudores/web/assets/hero.jpg, id=208, 642.4pt x 642.4pt>
+File: 14_peso_deudores/web/assets/hero.jpg Graphic file (type jpg)
+<use 14_peso_deudores/web/assets/hero.jpg>
+Package pdftex.def Info: 14_peso_deudores/web/assets/hero.jpg  used on input li
+ne 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (R);
+(lettrine.sty)             reported on input line 5.
+[47
+
+]
+Package mdframed Info: Not enough space on this page on input line 19.
+<14_peso_deudores/web/assets/art.jpg, id=212, 642.4pt x 642.4pt>
+File: 14_peso_deudores/web/assets/art.jpg Graphic file (type jpg)
+<use 14_peso_deudores/web/assets/art.jpg>
+Package pdftex.def Info: 14_peso_deudores/web/assets/art.jpg  used on input lin
+e 21.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+ [48 <./14_peso_deudores/web/assets/hero.jpg (PNG copy)>]
+Overfull \hbox (14.93964pt too wide) in paragraph at lines 29--29
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<14_peso_deudores/web/assets/pasaje_original.jpg, id=216, 331.2375pt x 125.4687
+5pt>
+File: 14_peso_deudores/web/assets/pasaje_original.jpg Graphic file (type jpg)
+<use 14_peso_deudores/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 14_peso_deudores/web/assets/pasaje_original.jpg  used 
+on input line 33.
+(pdftex.def)             Requested size: 146.34575pt x 55.43423pt.
+) (./15_desperdicio_y_escasez/latex/capitulo_15.tex [49 <./14_peso_deudores/web
+/assets/art.jpg (PNG copy)> <./14_peso_deudores/web/assets/pasaje_original.jpg>
+] [50]
+Cap\'{\i }tulo 16.
+<15_desperdicio_y_escasez/web/assets/hero.jpg, id=224, 642.4pt x 642.4pt>
+File: 15_desperdicio_y_escasez/web/assets/hero.jpg Graphic file (type jpg)
+<use 15_desperdicio_y_escasez/web/assets/hero.jpg>
+Package pdftex.def Info: 15_desperdicio_y_escasez/web/assets/hero.jpg  used on 
+input line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
 Package lettrine.sty Info: Targeted height = 38.74382pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 38.7439pt (T);
-(lettrine.sty)             reported on input line 11.
-[12
+(lettrine.sty)             reported on input line 5.
 
-]) (/Users/fjbanezares/libro del karma/06_sobriedad_y_claridad/latex/capitulo_06.tex [13 </Users/fjbanezares/libro del karma/05_pureza_mental/web/assets/juxtaposition.png (PNG copy)>] [14]
-Cap\'{\i }tulo 6.
-<06_sobriedad_y_claridad/web/assets/juxtaposition.png, id=65, 642.4pt x 642.4pt>
-File: 06_sobriedad_y_claridad/web/assets/juxtaposition.png Graphic file (type png)
-<use 06_sobriedad_y_claridad/web/assets/juxtaposition.png>
-Package pdftex.def Info: 06_sobriedad_y_claridad/web/assets/juxtaposition.png  used on input line 5.
-(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
-
-Overfull \hbox (6.27547pt too wide) in paragraph at lines 9--9
-|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls La Se-mi-lla del Pa-sa-do: El Jui-cio
+Overfull \hbox (0.82051pt too wide) in paragraph at lines 17--18
+[]\T1/EBGaramond-OsF/regular/it/12 Fue allí, en-tre el llan-to y el pol-vo, don
+-de com-pren-dió su error: quien
  []
 
+[51
+
+]
+Package mdframed Info: Not enough space on this page on input line 19.
+<15_desperdicio_y_escasez/web/assets/art.jpg, id=228, 642.4pt x 642.4pt>
+File: 15_desperdicio_y_escasez/web/assets/art.jpg Graphic file (type jpg)
+<use 15_desperdicio_y_escasez/web/assets/art.jpg>
+Package pdftex.def Info: 15_desperdicio_y_escasez/web/assets/art.jpg  used on i
+nput line 21.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+ [52 <./15_desperdicio_y_escasez/web/assets/hero.jpg (PNG copy)>]
+Overfull \hbox (17.18604pt too wide) in paragraph at lines 29--29
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<15_desperdicio_y_escasez/web/assets/pasaje_original.jpg, id=232, 331.2375pt x 
+120.45pt>
+File: 15_desperdicio_y_escasez/web/assets/pasaje_original.jpg Graphic file (typ
+e jpg)
+<use 15_desperdicio_y_escasez/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 15_desperdicio_y_escasez/web/assets/pasaje_original.jp
+g  used on input line 33.
+(pdftex.def)             Requested size: 146.34575pt x 53.21686pt.
+) (./16_adiccion_y_ceguera/latex/capitulo_16.tex [53 <./15_desperdicio_y_escase
+z/web/assets/art.jpg (PNG copy)> <./15_desperdicio_y_escasez/web/assets/pasaje_
+original.jpg>] [54]
+Cap\'{\i }tulo 17.
+<16_adiccion_y_ceguera/web/assets/hero.jpg, id=239, 642.4pt x 642.4pt>
+File: 16_adiccion_y_ceguera/web/assets/hero.jpg Graphic file (type jpg)
+<use 16_adiccion_y_ceguera/web/assets/hero.jpg>
+Package pdftex.def Info: 16_adiccion_y_ceguera/web/assets/hero.jpg  used on inp
+ut line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
 Package lettrine.sty Info: Targeted height = 38.74382pt
 (lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 35.48996pt (K);
-(lettrine.sty)             reported on input line 11.
-[15
+(lettrine.sty)             Lettrine height = 37.08112pt (S);
+(lettrine.sty)             reported on input line 5.
+[55
 
- </Users/fjbanezares/libro del karma/06_sobriedad_y_claridad/web/assets/juxtaposition.png (PNG copy)>]
-Overfull \hbox (11.6495pt too wide) in paragraph at lines 13--13
-|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls El Fru-to del Pre-sen-te: El In-som-
+] [56 <./16_adiccion_y_ceguera/web/assets/hero.jpg (PNG copy)>]
+<16_adiccion_y_ceguera/web/assets/art.jpg, id=247, 642.4pt x 642.4pt>
+File: 16_adiccion_y_ceguera/web/assets/art.jpg Graphic file (type jpg)
+<use 16_adiccion_y_ceguera/web/assets/art.jpg>
+Package pdftex.def Info: 16_adiccion_y_ceguera/web/assets/art.jpg  used on inpu
+t line 21.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+
+Overfull \hbox (16.6849pt too wide) in paragraph at lines 29--29
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
  []
 
-) [16] (/Users/fjbanezares/libro del karma/libro_maestro.aux
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
+<16_adiccion_y_ceguera/web/assets/pasaje_original.jpg, id=248, 331.2375pt x 125
+.46875pt>
+File: 16_adiccion_y_ceguera/web/assets/pasaje_original.jpg Graphic file (type j
+pg)
+<use 16_adiccion_y_ceguera/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 16_adiccion_y_ceguera/web/assets/pasaje_original.jpg  
+used on input line 33.
+(pdftex.def)             Requested size: 146.34575pt x 55.43423pt.
+[57 <./16_adiccion_y_ceguera/web/assets/art.jpg (PNG copy)>])
+(./17_orfandad_filial/latex/capitulo_17.tex [58 <./16_adiccion_y_ceguera/web/as
+sets/pasaje_original.jpg>]
+Cap\'{\i }tulo 18.
+<17_orfandad_filial/web/assets/hero.jpg, id=255, 642.4pt x 642.4pt>
+File: 17_orfandad_filial/web/assets/hero.jpg Graphic file (type jpg)
+<use 17_orfandad_filial/web/assets/hero.jpg>
+Package pdftex.def Info: 17_orfandad_filial/web/assets/hero.jpg  used on input 
+line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (L);
+(lettrine.sty)             reported on input line 5.
+[59
+
+]
+Package mdframed Info: Not enough space on this page on input line 19.
+<17_orfandad_filial/web/assets/art.jpg, id=259, 642.4pt x 642.4pt>
+File: 17_orfandad_filial/web/assets/art.jpg Graphic file (type jpg)
+<use 17_orfandad_filial/web/assets/art.jpg>
+Package pdftex.def Info: 17_orfandad_filial/web/assets/art.jpg  used on input l
+ine 21.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+ [60 <./17_orfandad_filial/web/assets/hero.jpg (PNG copy)>]
+Overfull \hbox (16.54666pt too wide) in paragraph at lines 29--29
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<17_orfandad_filial/web/assets/pasaje_original.jpg, id=263, 331.2375pt x 130.48
+75pt>
+File: 17_orfandad_filial/web/assets/pasaje_original.jpg Graphic file (type jpg)
+
+<use 17_orfandad_filial/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 17_orfandad_filial/web/assets/pasaje_original.jpg  use
+d on input line 33.
+(pdftex.def)             Requested size: 146.34575pt x 57.6516pt.
+) (./18_pereza_laboral/latex/capitulo_18.tex [61 <./17_orfandad_filial/web/asse
+ts/art.jpg (PNG copy)> <./17_orfandad_filial/web/assets/pasaje_original.jpg>]
+[62]
+Cap\'{\i }tulo 19.
+<18_pereza_laboral/web/assets/hero.jpg, id=271, 642.4pt x 642.4pt>
+File: 18_pereza_laboral/web/assets/hero.jpg Graphic file (type jpg)
+<use 18_pereza_laboral/web/assets/hero.jpg>
+Package pdftex.def Info: 18_pereza_laboral/web/assets/hero.jpg  used on input l
+ine 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (E);
+(lettrine.sty)             reported on input line 5.
+[63
+
+]
+Package mdframed Info: Not enough space on this page on input line 19.
+<18_pereza_laboral/web/assets/art.jpg, id=275, 642.4pt x 642.4pt>
+File: 18_pereza_laboral/web/assets/art.jpg Graphic file (type jpg)
+<use 18_pereza_laboral/web/assets/art.jpg>
+Package pdftex.def Info: 18_pereza_laboral/web/assets/art.jpg  used on input li
+ne 21.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+ [64 <./18_pereza_laboral/web/assets/hero.jpg (PNG copy)>]
+Overfull \hbox (16.78857pt too wide) in paragraph at lines 29--29
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<18_pereza_laboral/web/assets/pasaje_original.jpg, id=279, 331.2375pt x 130.487
+5pt>
+File: 18_pereza_laboral/web/assets/pasaje_original.jpg Graphic file (type jpg)
+<use 18_pereza_laboral/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 18_pereza_laboral/web/assets/pasaje_original.jpg  used
+ on input line 33.
+(pdftex.def)             Requested size: 146.34575pt x 57.6516pt.
+[65 <./18_pereza_laboral/web/assets/art.jpg (PNG copy)> <./18_pereza_laboral/we
+b/assets/pasaje_original.jpg>])
+(./19_destruccion_senderos/latex/capitulo_19.tex [66]
+Cap\'{\i }tulo 20.
+<19_destruccion_senderos/web/assets/hero.jpg, id=286, 642.4pt x 642.4pt>
+File: 19_destruccion_senderos/web/assets/hero.jpg Graphic file (type jpg)
+<use 19_destruccion_senderos/web/assets/hero.jpg>
+Package pdftex.def Info: 19_destruccion_senderos/web/assets/hero.jpg  used on i
+nput line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (L);
+(lettrine.sty)             reported on input line 5.
+[67
+
+] [68 <./19_destruccion_senderos/web/assets/hero.jpg (PNG copy)>]
+<19_destruccion_senderos/web/assets/art.jpg, id=294, 642.4pt x 642.4pt>
+File: 19_destruccion_senderos/web/assets/art.jpg Graphic file (type jpg)
+<use 19_destruccion_senderos/web/assets/art.jpg>
+Package pdftex.def Info: 19_destruccion_senderos/web/assets/art.jpg  used on in
+put line 21.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+ [69 <./19_destruccion_senderos/web/assets/art.jpg (PNG copy)>]
+Overfull \hbox (20.10634pt too wide) in paragraph at lines 29--29
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<19_destruccion_senderos/web/assets/pasaje_original.jpg, id=298, 479.7925pt x 1
+60.6pt>
+File: 19_destruccion_senderos/web/assets/pasaje_original.jpg Graphic file (type
+ jpg)
+<use 19_destruccion_senderos/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 19_destruccion_senderos/web/assets/pasaje_original.jpg
+  used on input line 33.
+(pdftex.def)             Requested size: 146.34575pt x 48.98659pt.
+) (./20_construccion_puentes/latex/capitulo_20.tex [70 <./19_destruccion_sender
+os/web/assets/pasaje_original.jpg>]
+Cap\'{\i }tulo 21.
+<20_construccion_puentes/web/assets/hero.jpg, id=302, 642.4pt x 642.4pt>
+File: 20_construccion_puentes/web/assets/hero.jpg Graphic file (type jpg)
+<use 20_construccion_puentes/web/assets/hero.jpg>
+Package pdftex.def Info: 20_construccion_puentes/web/assets/hero.jpg  used on i
+nput line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (E);
+(lettrine.sty)             reported on input line 5.
+[71
+
+] [72 <./20_construccion_puentes/web/assets/hero.jpg (PNG copy)>]
+<20_construccion_puentes/web/assets/art.jpg, id=309, 642.4pt x 642.4pt>
+File: 20_construccion_puentes/web/assets/art.jpg Graphic file (type jpg)
+<use 20_construccion_puentes/web/assets/art.jpg>
+Package pdftex.def Info: 20_construccion_puentes/web/assets/art.jpg  used on in
+put line 21.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+ [73 <./20_construccion_puentes/web/assets/art.jpg (PNG copy)>]
+Overfull \hbox (16.3393pt too wide) in paragraph at lines 29--29
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<20_construccion_puentes/web/assets/pasaje_original.jpg, id=313, 479.7925pt x 1
+65.61874pt>
+File: 20_construccion_puentes/web/assets/pasaje_original.jpg Graphic file (type
+ jpg)
+<use 20_construccion_puentes/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 20_construccion_puentes/web/assets/pasaje_original.jpg
+  used on input line 33.
+(pdftex.def)             Requested size: 146.34575pt x 50.51743pt.
+
+Underfull \hbox (badness 2990) in paragraph at lines 37--38
+[][]\T1/EBGaramond-OsF/regular/n/12 (+20) La cons-truc-ción de in-fra-es-
+ []
+
+) (./21_exhibicion_cuerpo/latex/capitulo_21.tex [74 <./20_construccion_puentes/
+web/assets/pasaje_original.jpg>]
+Cap\'{\i }tulo 22.
+<21_exhibicion_cuerpo/web/assets/hero.jpg, id=318, 642.4pt x 642.4pt>
+File: 21_exhibicion_cuerpo/web/assets/hero.jpg Graphic file (type jpg)
+<use 21_exhibicion_cuerpo/web/assets/hero.jpg>
+Package pdftex.def Info: 21_exhibicion_cuerpo/web/assets/hero.jpg  used on inpu
+t line 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (E);
+(lettrine.sty)             reported on input line 5.
+[75
+
+] [76 <./21_exhibicion_cuerpo/web/assets/hero.jpg (PNG copy)>]
+<21_exhibicion_cuerpo/web/assets/art.jpg, id=325, 642.4pt x 642.4pt>
+File: 21_exhibicion_cuerpo/web/assets/art.jpg Graphic file (type jpg)
+<use 21_exhibicion_cuerpo/web/assets/art.jpg>
+Package pdftex.def Info: 21_exhibicion_cuerpo/web/assets/art.jpg  used on input
+ line 21.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+
+Overfull \hbox (18.94856pt too wide) in paragraph at lines 29--29
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<21_exhibicion_cuerpo/web/assets/pasaje_original.jpg, id=326, 479.7925pt x 162.
+6075pt>
+File: 21_exhibicion_cuerpo/web/assets/pasaje_original.jpg Graphic file (type jp
+g)
+<use 21_exhibicion_cuerpo/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 21_exhibicion_cuerpo/web/assets/pasaje_original.jpg  u
+sed on input line 33.
+(pdftex.def)             Requested size: 146.34575pt x 49.59892pt.
+
+Underfull \hbox (badness 1400) in paragraph at lines 37--38
+[][]\T1/EBGaramond-OsF/regular/n/12 (+20) La exhi-bi-ción im-pú-di-ca del
+ []
+
+) (./22_pesca_excesiva/latex/capitulo_22.tex [77 <./21_exhibicion_cuerpo/web/as
+sets/pasaje_original.jpg>] [78 <./21_exhibicion_cuerpo/web/assets/art.jpg (PNG 
+copy)>]
+Cap\'{\i }tulo 23.
+<22_pesca_excesiva/web/assets/hero.jpg, id=333, 642.4pt x 642.4pt>
+File: 22_pesca_excesiva/web/assets/hero.jpg Graphic file (type jpg)
+<use 22_pesca_excesiva/web/assets/hero.jpg>
+Package pdftex.def Info: 22_pesca_excesiva/web/assets/hero.jpg  used on input l
+ine 3.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+Package lettrine.sty Info: Targeted height = 38.74382pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 35.48996pt (E);
+(lettrine.sty)             reported on input line 5.
+[79
+
+] [80 <./22_pesca_excesiva/web/assets/hero.jpg (PNG copy)>]
+<22_pesca_excesiva/web/assets/art.jpg, id=341, 642.4pt x 642.4pt>
+File: 22_pesca_excesiva/web/assets/art.jpg Graphic file (type jpg)
+<use 22_pesca_excesiva/web/assets/art.jpg>
+Package pdftex.def Info: 22_pesca_excesiva/web/assets/art.jpg  used on input li
+ne 21.
+(pdftex.def)             Requested size: 276.43474pt x 276.44226pt.
+ [81 <./22_pesca_excesiva/web/assets/art.jpg (PNG copy)>]
+Overfull \hbox (17.77353pt too wide) in paragraph at lines 29--29
+|[]\T1/EBGaramond-OsF/m/sc/17.28/100ls Análisis Kár-mi-co y Tra-duc-ción| 
+ []
+
+<22_pesca_excesiva/web/assets/pasaje_original.jpg, id=345, 479.7925pt x 165.618
+74pt>
+File: 22_pesca_excesiva/web/assets/pasaje_original.jpg Graphic file (type jpg)
+<use 22_pesca_excesiva/web/assets/pasaje_original.jpg>
+Package pdftex.def Info: 22_pesca_excesiva/web/assets/pasaje_original.jpg  used
+ on input line 33.
+(pdftex.def)             Requested size: 146.34575pt x 50.51743pt.
+
+Underfull \hbox (badness 1400) in paragraph at lines 37--38
+[][]\T1/EBGaramond-OsF/regular/n/12 (+20) La exhi-bi-ción im-pú-di-ca del
+ []
+
+) [82 <./22_pesca_excesiva/web/assets/pasaje_original.jpg>]
+(./libro_maestro.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 7701 strings out of 480608
- 127426 string characters out of 5903630
- 405496 words of memory out of 5000000
- 23364 multiletter control sequences out of 15000+600000
- 610269 words of font info for 117 fonts, out of 8000000 for 9000
+ 20020 strings out of 480608
+ 399889 string characters out of 5903630
+ 655778 words of memory out of 5000000
+ 35277 multiletter control sequences out of 15000+600000
+ 632807 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,96p,681b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tcdnmr.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_byuyni.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb>
-Output written on "/Users/fjbanezares/libro del karma/libro_maestro.pdf" (19 pages, 4800620 bytes).
+ 60i,11n,96p,816b,709s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tcdnmr.e
+nc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.e
+nc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_byuyni.e
+nc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond
+-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBG
+aramond-Italic.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ebgar
+amond/EBGaramond-Regular.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb>
+Output written on libro_maestro.pdf (87 pages, 30482925 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 381 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 11807 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 13620 words of extra memory for PDF output out of 14400 (max. 10000000)
 

@@ -1,26 +1,72 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{Introducción}{1}%
-\contentsline {chapter}{\numberline {1}Esfuerzo Desinteresado}{2}%
-\contentsline {section}{\numberline {1.1}La Semilla del Pasado: El Sudor de Chen}{2}%
-\contentsline {section}{\numberline {1.2}El Fruto del Presente: El Milagro de Juan}{3}%
-\contentsline {section}{\numberline {1.3}Interpretación de la Imagen}{4}%
-\contentsline {chapter}{\numberline {2}Los Espejos Rotos}{5}%
-\contentsline {section}{\numberline {2.1}La Semilla del Pasado: El Placer de Ibrahim}{6}%
-\contentsline {section}{\numberline {2.2}El Fruto del Presente: El Silencio de Manuel}{6}%
-\contentsline {section}{\numberline {2.3}Interpretación de la Imagen}{6}%
-\contentsline {chapter}{\numberline {3}La Siembra Silenciosa}{7}%
-\contentsline {section}{\numberline {3.1}La Semilla del Pasado: El Grano de Elena}{8}%
-\contentsline {section}{\numberline {3.2}El Fruto del Presente: La Prosperidad de Elena}{8}%
-\contentsline {section}{\numberline {3.3}Interpretación de la Imagen}{8}%
-\contentsline {chapter}{\numberline {4}El Hilo de la Vida}{10}%
-\contentsline {section}{\numberline {4.1}La Semilla del Pasado: El Cuchillo de Hien}{11}%
-\contentsline {section}{\numberline {4.2}El Fruto del Presente: El Soldado y su Sombra}{11}%
-\contentsline {section}{\numberline {4.3}Interpretación de la Imagen}{11}%
-\contentsline {chapter}{\numberline {5}Sombras de la Mente}{12}%
-\contentsline {section}{\numberline {5.1}La Semilla del Pasado: El Veneno de Tuan}{12}%
-\contentsline {section}{\numberline {5.2}El Fruto del Presente: El Laberinto de Tuan}{12}%
-\contentsline {section}{\numberline {5.3}Interpretación de la Imagen}{13}%
-\contentsline {chapter}{\numberline {6}El Veneno Dulce}{15}%
-\contentsline {section}{\numberline {6.1}La Semilla del Pasado: El Juicio de Kiem}{16}%
-\contentsline {section}{\numberline {6.2}El Fruto del Presente: El Insomnio de Kiem}{16}%
-\contentsline {section}{\numberline {6.3}Interpretación de la Imagen}{16}%
+\contentsline {chapter}{\numberline {1}La Física del Alma}{1}%
+\contentsline {section}{\numberline {1.1}El Hilo Conductor de las Tradiciones}{2}%
+\contentsline {section}{\numberline {1.2}La Tercera Ley de Newton del Alma}{3}%
+\contentsline {section}{\numberline {1.3}El Entrelazamiento y la Memoria}{4}%
+\contentsline {section}{\numberline {1.4}El Propósito de este Libro}{5}%
+\contentsline {chapter}{\numberline {2}Herencia de la Fuerza}{7}%
+\contentsline {section}{\numberline {2.1}Interpretación del Templo}{7}%
+\contentsline {section}{\numberline {2.2}La Semilla del Constructor}{7}%
+\contentsline {section}{\numberline {2.3}Análisis Kármico y Traducción}{9}%
+\contentsline {chapter}{\numberline {3}Los Espejos Rotos}{11}%
+\contentsline {section}{\numberline {3.1}El Espejo de las Promesas}{11}%
+\contentsline {section}{\numberline {3.2}Análisis Kármico y Traducción}{13}%
+\contentsline {chapter}{\numberline {4}La Siembra Silenciosa}{14}%
+\contentsline {section}{\numberline {4.1}El Pan de la Vida}{14}%
+\contentsline {section}{\numberline {4.2}Análisis Kármico y Traducción}{16}%
+\contentsline {chapter}{\numberline {5}El Hilo de la Vida}{17}%
+\contentsline {section}{\numberline {5.1}El Suspiro del Viento}{17}%
+\contentsline {section}{\numberline {5.2}Análisis Kármico y Traducción}{19}%
+\contentsline {chapter}{\numberline {6}Sombras de la Mente}{20}%
+\contentsline {section}{\numberline {6.1}Las Sombras y la Luz}{20}%
+\contentsline {section}{\numberline {6.2}Análisis Kármico y Traducción}{22}%
+\contentsline {chapter}{\numberline {7}El Veneno Dulce}{23}%
+\contentsline {section}{\numberline {7.1}El Vaso Vacío}{23}%
+\contentsline {section}{\numberline {7.2}Análisis Kármico y Traducción}{25}%
+\contentsline {chapter}{\numberline {8}Las Manos del Mal}{26}%
+\contentsline {section}{\numberline {8.1}Las Manos del Alfarero}{26}%
+\contentsline {section}{\numberline {8.2}Análisis Kármico y Traducción}{28}%
+\contentsline {chapter}{\numberline {9}El Pedestal de la Soberbia}{29}%
+\contentsline {section}{\numberline {9.1}Análisis Kármico y Traducción}{29}%
+\contentsline {chapter}{\numberline {10}El Cofre del Egoísmo}{31}%
+\contentsline {section}{\numberline {10.1}El Frío de las Monedas}{31}%
+\contentsline {section}{\numberline {10.2}Análisis Kármico y Traducción}{33}%
+\contentsline {chapter}{\numberline {11}El Infierno de las Sombras}{34}%
+\contentsline {section}{\numberline {11.1}El Vestido de Fuego}{34}%
+\contentsline {section}{\numberline {11.2}Análisis Kármico y Traducción}{36}%
+\contentsline {chapter}{\numberline {12}La Mirada del Desprecio}{37}%
+\contentsline {section}{\numberline {12.1}El Espejo Roto}{37}%
+\contentsline {section}{\numberline {12.2}Análisis Kármico y Traducción}{39}%
+\contentsline {chapter}{\numberline {13}El Poder Malgastado}{40}%
+\contentsline {section}{\numberline {13.1}El Patrón de Arcilla}{40}%
+\contentsline {section}{\numberline {13.2}Análisis Kármico y Traducción}{42}%
+\contentsline {chapter}{\numberline {14}El Rostro del Amor}{43}%
+\contentsline {section}{\numberline {14.1}El Espejo de las Almas}{43}%
+\contentsline {section}{\numberline {14.2}Análisis Kármico y Traducción}{45}%
+\contentsline {chapter}{\numberline {15}La Deuda Invisible}{47}%
+\contentsline {section}{\numberline {15.1}El Equipaje Invisible}{47}%
+\contentsline {section}{\numberline {15.2}Análisis Kármico y Traducción}{49}%
+\contentsline {chapter}{\numberline {16}El Plato Vacío}{51}%
+\contentsline {section}{\numberline {16.1}El Granero Agotado}{51}%
+\contentsline {section}{\numberline {16.2}Análisis Kármico y Traducción}{53}%
+\contentsline {chapter}{\numberline {17}La Ceguera Autoimpuesta}{55}%
+\contentsline {section}{\numberline {17.1}La Llama Apagada}{56}%
+\contentsline {section}{\numberline {17.2}Análisis Kármico y Traducción}{57}%
+\contentsline {chapter}{\numberline {18}El Cordón Cortado}{59}%
+\contentsline {section}{\numberline {18.1}El Árbol sin Raíces}{59}%
+\contentsline {section}{\numberline {18.2}Análisis Kármico y Traducción}{61}%
+\contentsline {chapter}{\numberline {19}El Peso de la Indolencia}{63}%
+\contentsline {section}{\numberline {19.1}El Yunque y la Pereza}{63}%
+\contentsline {section}{\numberline {19.2}Análisis Kármico y Traducción}{65}%
+\contentsline {chapter}{\numberline {20}La Senda Destruida}{67}%
+\contentsline {section}{\numberline {20.1}El Puente de Piedra}{68}%
+\contentsline {section}{\numberline {20.2}Análisis Kármico y Traducción}{70}%
+\contentsline {chapter}{\numberline {21}El Puente de la Prosperidad}{71}%
+\contentsline {section}{\numberline {21.1}El Constructor de Puentes}{72}%
+\contentsline {section}{\numberline {21.2}Análisis Kármico y Traducción}{74}%
+\contentsline {chapter}{\numberline {22}El Fuego del Exhibicionismo}{75}%
+\contentsline {section}{\numberline {22.1}La Danzarina del Mercado}{76}%
+\contentsline {section}{\numberline {22.2}Análisis Kármico y Traducción}{77}%
+\contentsline {chapter}{\numberline {23}La Red Vacía}{79}%
+\contentsline {section}{\numberline {23.1}El Pescador Insaciable}{80}%
+\contentsline {section}{\numberline {23.2}Análisis Kármico y Traducción}{82}%
