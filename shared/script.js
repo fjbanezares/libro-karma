@@ -275,6 +275,14 @@ const KARMA_CHAPTERS = [
       es:'El Espejo de la Tolerancia Ciega', en:'The Mirror of Blind Tolerance', it:'Lo Specchio della Tolleranza Cieca', zh:'盲目纵容之镜',
       ar:'مرآة التسامح الأعمى', ru:'Зеркало слепой терпимости', de:'Der Spiegel der blinden Toleranz', fr:'Le Miroir de la Tolérance Aveugle',
       ja:'盲目な寛容の鏡', pt:'O Espelho da Tolerância Cega', vi:'Tấm Gương Của Sự Dung Túng Mù Quáng' },
+    { icon: '67', folder: '67_comercio_sagrado',
+      es:'El Mercader de lo Sagrado', en:'The Merchant of the Sacred', it:'Il Mercante del Sacro', zh:'神圣的商贩',
+      ar:'تاجر المقدّس', ru:'Торговец священным', de:'Der Händler des Heiligen', fr:'Le Marchand du Sacré',
+      ja:'聖なるものの商人', pt:'O Mercador do Sagrado', vi:'Kẻ Buôn Bán Trên Điều Thiêng Liêng' },
+    { icon: '68', folder: '68_caridad_interesada',
+      es:'La Limosna Envenenada', en:'The Poisoned Alms', it:'L\'Elemosina Avvelenata', zh:'有毒的施舍',
+      ar:'الصدقة المسمومة', ru:'Отравленная милостыня', de:'Das vergiftete Almosen', fr:'L\'Aumône Empoisonnée',
+      ja:'毒された施し', pt:'A Esmola Envenenada', vi:'Bố Thí Nhiễm Độc' },
 ];
 
 const LANGS = ['es','en','it','zh','ar','ru','de','fr','ja','pt','vi'];
