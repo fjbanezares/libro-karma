@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+
+import os
+
+def get_html_ch59():
+    return """<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -217,7 +221,7 @@
                 <!-- PT -->
                 <p class="pt" style="font-style: italic; color: #ddd; line-height: 1.8; text-align: justify; margin-bottom: 1.5rem;">Havia uma vez um homem chamado Elian que vivia numa cidade de espelhos deformados. Elian era famoso pela sua astúcia; sabia dizer o que cada pessoa queria ouvir, mesmo que fosse falso. Graças às suas mentiras, acumulou grandes riquezas e prestígio. No entanto, com o passar dos anos, algo estranho começou a acontecer: Elian começou a ver o mundo baço. Os rostos dos seus amigos pareciam sombras e o próprio sol parecia uma mancha opaca no céu. Consultou médicos e sábios, mas nenhum encontrou cura para a sua cegueira progressiva.</p>
                 <p class="pt" style="font-style: italic; color: #ddd; line-height: 1.8; text-align: justify; margin-bottom: 1.5rem;">Um dia, desesperado, viajou para o Vale Silencioso para ver um velho eremita que, segundo se dizia, podia ver através das montanhas. Ao chegar, Elian suplicou: "Sábio, devolve-me a vista. O mundo tornou-se cinzento e confuso". O ancião, sem abrir os olhos, entregou-lhe uma pequena taça de água límpida e disse: "O mundo não está cinzento, Elian. Os teus olhos estão cobertos pelo fumo das tuas próprias palavras. Cada vez que enganaste outro, puseste um véu sobre o teu próprio espírito. Para veres a verdade fora, tens primeiro de parar de a esconder dentro".</p>
-                <p class="pt" style="font-style: italic; color: #ddd; line-height: 1.8; text-align: justify; margin-bottom: 1.5rem;">Elian passou meses no vale, praticando o silêncio e, sobretudo, a verdade. Confessou os seus enganos, devolveu o que obteve com falsidades e aprendeu a falar com o coração nu. Foi um processo doloroso, como se lhe arrancassem crostas dos olhos. Um dia, ao amanhecer, viu uma gota de orvalho numa folha de lótus. Era tão perfeita e límpida que rompeu a chorar. Nesse momento, não só recuperou a vista, como começou a ver a essência de todas as coisas: o amor nos estranhos, a sabedoria no vento e a divindade no silêncio.</p>
+                <p class="pt" style="font-style: italic; color: #ddd; line-height: 1.8; text-align: justify; margin-bottom: 1.5rem;">Elian passou meses no vale, praticando o silêncio e, sobretudo, a verdade. Confessou os seus enganos, devolveu o que obteve com falsidades e aprendeu a falar com o coração nu. Foi um processo doloroso, como se lhe arrancassem crostas dos olhos. Um dia, ao amanhecer, viu uma gota de orvalho numa folha de lótus. Era tão perfeita e límpida que rompeu a chorar. Nesse momento, não só recuperou a vista, como começou a ver a essência de todas as coisas: o amor nos estranhos, a sabedoria no vento e a divindade no silêncio.</p> Portuguese訳-->
                 <p class="pt" style="font-style: italic; color: #ddd; line-height: 1.8; text-align: justify; margin-bottom: 1.5rem;">Regressou à sua cidade, mas já não era um mercador de mentiras, mas um farol de verdade. Quem o olhava sentia que as suas próprias sombras se dissolviam. Elian compreendeu que a honestidade não era um fardo moral, mas o preço da liberdade absoluta. O seu Ikigai, o seu propósito, tornou-se claro como o cristal: ajudar os outros a limpar os seus próprios espelhos para que pudessem ver a beleza infinita que a mentira sempre lhes tinha ocultado.</p>
 
                 <!-- VI -->
@@ -278,3 +282,9 @@
     <script src="../../shared/script.js"></script>
 </body>
 </html>
+"""
+
+with open("/Users/fjbanezares/libro del karma/59_vivir_con_honestidad_sabiduria/web/index.html", "w") as f:
+    f.write(get_html_ch59())
+
+print("Chapter 59 HTML successfully updated with ABSOLUTELY FULL translations.")

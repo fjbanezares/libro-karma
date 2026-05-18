@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+
+import os
+
+def get_html_ch60():
+    return """<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -278,3 +282,9 @@
     <script src="../../shared/script.js"></script>
 </body>
 </html>
+"""
+
+with open("/Users/fjbanezares/libro del karma/60_esmero_pequenas_cosas_inteligencia/web/index.html", "w") as f:
+    f.write(get_html_ch60())
+
+print("Chapter 60 HTML successfully updated with ABSOLUTELY FULL translations.")

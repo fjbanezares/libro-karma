@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+
+import os
+
+def get_html_ch61():
+    return """<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -217,7 +221,7 @@
                 <!-- PT -->
                 <p class="pt" style="font-style: italic; color: #ddd; line-height: 1.8; text-align: justify; margin-bottom: 1.5rem;">Havia uma vez um mercador chamado Silas que possuía uma coleção de estátuas sagradas de incalculável valor. Silas não era um homem de fé; para ele, os Budas de jade e os Cristos de ouro eram apenas troféus que demonstravam o seu sucesso. Nos seus banquetes, Silas costumava colocar chapéus ridículos sobre as cabeças das estátuas ou usá-las para segurar as taças dos seus convidados, rindo enquanto profanava aquilo que milhares de pessoas veneravam com lágrimas nos olhos.</p>
                 <p class="pt" style="font-style: italic; color: #ddd; line-height: 1.8; text-align: justify; margin-bottom: 1.5rem;">Um dia, Silas adquiriu uma pequena lâmpada de azeite que, segundo se dizia, provinha do altar de um santo esquecido. A lâmpada emitia uma luz dourada e suave que nunca se apagava. No entanto, Silas, querendo impressionar uma cortesã, decidiu usar o azeite sagrado da lâmpada para perfumar o seu vinho. No instante em que o azeite tocou o vidro, a lâmpada quebrou-se em mil pedaçoes e a luz desvaneceu-se, deixando a sala numa escuridão absoluta e gélida.</p>
-                <p class="pt" style="font-style: italic; color: #ddd; line-height: 1.8; text-align: justify; margin-bottom: 1.5rem;">A partir dessa noite, a fortuna de Silas desmoronou-se. Os seus barcos afundaram-se em mares tranquilos e os seus amigos desapareceram como o fumo. O mais trágico foi que Silas começou a sentir um frio interno que nada podia acalmar. Vagou pelo mundo como um mendigo, com os pés sangrentos, procurando um templo onde refugiar-se, mas cada vez que se aproximava de um altar, sentia que as imagens lhe davam as costas. Não era ódio divino; era que Silas tinha perdido a faculdade de reconhecer o sagrado e, portanto, o universo já não podia oferecer-lhe a sua proteção.</p>
+                <p class="pt" style="font-style: italic; color: #ddd; line-height: 1.8; text-align: justify; margin-bottom: 1.5rem;">A partir dessa noite, a fortuna de Silas desmoronou-se. Os seus barcos afundaram-se em mares tranquilos e os seus amigos desapareceram como o fumo. O mais trágico foi que Silas começou a sentir um frio interno que nada podia acalmar. Vagou pelo mundo como um mendigo, com os pés sangrentos, procurando um templo onde refugiar-se, mas cada vez que se aproximava de um altar, sentia que as imagens lhe davam as costas. Não era ódio divino; era que Silas tinha perdido a faculdade de reconhecer o sagrado e, portanto, o universo já não podia oferecer-lhe a sua proteção.</p> Portuguese訳-->
                 <p class="pt" style="font-style: italic; color: #ddd; line-height: 1.8; text-align: justify; margin-bottom: 1.5rem;">Silas morreu na solidão de um deserto, compreendendo tarde demais que quando se joga com o eterno, é o próprio tempo que nos escapa. Tinha tido o céu nas suas mãos e tinha-o usado para adornar a sua soberba. O seu Ikigai, o seu propósito esquecido, sussurrou-lhe no último suspiro: "Não se pode pedir luz quando se desfrutou a apagar o sol". A sua história ficou gravada nas areias como um aviso de que o respeito não é uma norma, mas a pele com que a alma sente o amor de Deus.</p>
 
                 <!-- VI -->
@@ -278,3 +282,9 @@
     <script src="../../shared/script.js"></script>
 </body>
 </html>
+"""
+
+with open("/Users/fjbanezares/libro del karma/61_respeto_sagrado_miseria/web/index.html", "w") as f:
+    f.write(get_html_ch61())
+
+print("Chapter 61 HTML successfully updated with ABSOLUTELY FULL translations.")
