@@ -343,6 +343,22 @@ const KARMA_CHAPTERS = [
       es:'La Lección de la Lealtad y el Retorno de la Fe', en:'The Lesson of Loyalty and the Return of Faith', it:'La lezione della lealtà e il ritorno della fede', zh:'忠诚的教训与信念的回归',
       ar:'درس الولاء وعودة الإيمان', ru:'Урок верности и возвращение веры', de:'Die Lektion der Loyalität und die Rückkehr des Glaubens', fr:'La leçon de loyauté et le retour de la foi',
       ja:'忠誠の教えと信念の回帰', pt:'A Lição da Lealdade e o Retorno da Fé', vi:'Bài Học Về Lòng Trung Thành Và Sự Trở Lại Của Niềm Tin' },
+    { icon: '84', folder: '84_la_nobleza_del_corazon',
+      es:'La Nobleza del Corazón y el Amparo Universal', en:'The Nobility of Heart and the Universal Shelter', it:'La Nobiltà del Cuore e il Rifugio Universale', zh:'心灵的高贵与宇宙的庇护',
+      ar:'نبل القلب والمأوى العالمي', ru:'Благородство сердца и вселенское убежище', de:'Die Edelmütigkeit des Herzens und der universelle Schutz', fr:'La noblesse du cœur et le refuge universel',
+      ja:'心の気高さと宇宙の庇護', pt:'A Nobreza do Coração e o Abrigo Universal', vi:'Sự Cao Quý Của Trái Tim Và Sự Che Chở Của Vũ Trụ' },
+    { icon: '85', folder: '85_la_armonia_rota',
+      es:'La Armonía Rota y el Eco del Abismo', en:'The Broken Harmony and the Echo of the Abyss', it:'La Armonia Rotta e l\'Eco dell\'Abisso', zh:'破碎的和谐与深渊的回响',
+      ar:'الانسجام المكسور وصدى الهاوية', ru:'Разрушенная гармония и эхо бездны', de:'Die gebrochene Harmonie und das Echo des Abgrunds', fr:'L\'harmonie brisée et l\'écho de l\'abîme',
+      ja:'壊された調和と深淵の残響', pt:'A Harmonia Quebrada e o Eco do Abismo', vi:'Sự Phá Vỡ Hòa Hợp Và Tiếng Vang Của Vực Thẳm' },
+    { icon: '86', folder: '86_el_sembrador_de_luz',
+      es:'El Sembrador de Luz y la Corona del Maestro', en:'The Sower of Light and the Master\'s Crown', it:'Il Seminatore di Luce e la Corona del Maestro', zh:'播光者与导师的冠冕',
+      ar:'ناشر النور وتاج المعلم', ru:'Сеятель света и корона Учителя', de:'Der Sämann des Lichts und die Krone des Meisters', fr:'Le semeur de lumière et la couronne du maître',
+      ja:'光を蒔く者と師の冠', pt:'O Semeador de Luz e a Coroa do Mestre', vi:'Người Gieo Ánh Sáng Và Vương Miện Của Bậc Thầy' },
+    { icon: '87', folder: '87_la_falsa_antorcha',
+      es:'La Falsa Antorcha y el Laberinto de la Mente', en:'The False Torch and the Labyrinth of the Mind', it:'La Falsa Torcia e il Labirinto della Mente', zh:'虚假的火炬与心灵的迷宫',
+      ar:'الشعلة الزائفة ومتاهة العقل', ru:'Ложный факел и лабиринт разума', de:'Die falsche Fackel und das Labyrinth des Geistes', fr:'Le faux flambeau et le labyrinthe de l\'esprit',
+      ja:'偽りの松明と心の迷宮', pt:'A Falsa Tocha e o Labirinto da Mente', vi:'Ngọn Đuốc Giả Tạo Và Mê Cung Của Tâm Trí' },
 ];
 
 const LANGS = ['es','en','it','zh','ar','ru','de','fr','ja','pt','vi'];
